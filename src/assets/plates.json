@@ -1,0 +1,878 @@
+{
+  "result": [
+		{"name": "Muzzarela",
+			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/CLASSIC-653x653_c.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1000,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4,
+			"total_purchases": 150,
+			"tags": ["vegan", "dietetic"]
+		},
+		{"name": "Napolitana",
+			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/NAPO.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1100,
+				"discount": 5,
+				"taxation": 15
+			},
+			"stars": 4.5,
+			"total_purchases": 120,
+			"tags": ["sugar free", "dietetic"]
+		},
+		{"name": "Fugazzetta Rellena",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/25-Fugazzeta-Rellena-1024x1024.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1150,
+				"discount": 0,
+				"taxation": 15
+			},
+			"stars": 4.2,
+			"total_purchases": 90,
+			"tags": ["onion", "cheese"]
+		},
+		{"name": "Fugazzetta",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/28-Fugazza-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1150,
+				"discount": 0,
+				"taxation": 15
+			},
+			"stars": 4.2,
+			"total_purchases": 90,
+			"tags": ["onion", "cheese"]
+		},
+		{"name": "Cuatro Quesos",
+			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/4QUESOS-653x653_c.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1300,
+				"discount": 15,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 80,
+			"tags": ["cheese", "gourmet"]
+		},
+		{"name": "Margarita",
+			"img": "https://static.vecteezy.com/system/resources/previews/037/496/555/non_2x/ai-generated-margherita-pizza-with-basil-free-png.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1200,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.6,
+			"total_purchases": 140,
+			"tags": ["basil", "vegetarian"]
+		},
+		{"name": "Pepperoni",
+			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/PEPPERONI-653x653_c.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1400,
+				"discount": 20,
+				"taxation": 15
+			},
+			"stars": 4.7,
+			"total_purchases": 200,
+			"tags": ["spicy", "meat"]
+		},
+		{"name": "Hawaiana",
+			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/HAWAIIANA-653x653_c.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1350,
+				"discount": 5,
+				"taxation": 15
+			},
+			"stars": 4.3,
+			"total_purchases": 70,
+			"tags": ["pineapple", "ham"]
+		},
+		{"name": "BBQ Chicken",
+			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/CHICKEN-653x653_c.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1450,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.9,
+			"total_purchases": 65,
+			"tags": ["chicken", "barbecue"]
+		},
+		{"name": "BBQ Pork",
+			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/PORK-copia-653x653_c.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1450,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.9,
+			"total_purchases": 65,
+			"tags": ["chicken", "barbecue"]
+		},
+		{"name": "Italia",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/05-Gourmet-Italia-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1100,
+				"discount": 15,
+				"taxation": 15
+			},
+			"stars": 4.4,
+			"total_purchases": 50,
+			"tags": ["vegetarian", "healthy"]
+		},
+		{"name": "Carne",
+			"img": "https://png.pngtree.com/png-vector/20240728/ourmid/pngtree-a-pizza-with-meat-cheese-and-other-toppings-on-it-png-image_13267573.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 5,
+			"total_purchases": 100,
+			"tags": ["meat", "spicy"]
+		},
+		{"name": "Champiñones",
+			"img": "https://opetiscoarteixo.com/wp-content/uploads/2021/04/pizza2.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1200,
+				"discount": 5,
+				"taxation": 10
+			},
+			"stars": 4.1,
+			"total_purchases": 85,
+			"tags": ["mushroom", "vegetarian"]
+		},
+		{"name": "Atún",
+			"img": "https://pizzarius.es/wp-content/uploads/2023/09/pizza-atun-01.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1300,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.3,
+			"total_purchases": 95,
+			"tags": ["fish", "seafood"]
+		},
+		{"name": "Salchicha",
+			"img": "https://static.vecteezy.com/system/resources/previews/043/848/557/non_2x/crust-italian-sausage-pizza-free-png.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1400,
+				"discount": 15,
+				"taxation": 20
+			},
+			"stars": 4.5,
+			"total_purchases": 110,
+			"tags": ["sausage", "spicy"]
+		},
+		{"name": "Vegana",
+			"img": "https://tutsypizza.com/wp-content/uploads/2023/09/pizza-vegana-2-653x653_c.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1250,
+				"discount": 5,
+				"taxation": 10
+			},
+			"stars": 4.2,
+			"total_purchases": 75,
+			"tags": ["vegan", "healthy"]
+		},
+		{"name": "Veggie",
+			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/VEGGIE-653x653_c.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1250,
+				"discount": 5,
+				"taxation": 10
+			},
+			"stars": 4.2,
+			"total_purchases": 75,
+			"tags": ["vegan", "healthy"]
+		},
+		{"name": "Mortadella",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/01-Gourmet-Mortadella-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1350,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.4,
+			"total_purchases": 120,
+			"tags": ["not vegan"]
+		},
+		{"name": "Pollo",
+			"img": "https://static.vecteezy.com/system/resources/previews/036/497/923/non_2x/ai-generated-a-top-down-view-of-delicious-chicken-pizza-on-transparent-background-free-png.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1400,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.7,
+			"total_purchases": 100,
+			"tags": ["chicken", "protein"]
+		},
+		{"name": "Rúcula",
+			"img": "https://marcoluccio.com.br/wp-content/uploads/2021/03/marco_luccio_rucula_BRUNNO_0521_0385.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1300,
+				"discount": 5,
+				"taxation": 10
+			},
+			"stars": 4.3,
+			"total_purchases": 60,
+			"tags": ["arugula", "gourmet"]
+		},
+		{"name": "Mediterránea",
+			"img": "https://www.pizzeriaelhornoazul.com/wp-content/uploads/2022/12/mediterranea.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1350,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.6,
+			"total_purchases": 90,
+			"tags": ["olives", "feta"]
+		},
+		{"name": "Mediterránea a la Piedra",
+			"img": "https://sugosugo.in/wp-content/uploads/2023/10/LA-MEDITERRANEA.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1350,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.6,
+			"total_purchases": 90,
+			"tags": ["olives", "feta"]
+		},
+		{"name": "Mariscos",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/Categoria-Pizzas-a-la-Piedra.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["seafood", "gourmet"]
+		},
+		{"name": "Especial",
+			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/ESPECIAL-653x653_c.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+		{"name": "Noruega",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/02-Gourmet-Noruega-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+		{"name": "Piemonte",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/03-Gourmet-Piemonte-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+		{"name": "Pil-Pil",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/04-Gourmet-PilPil-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+		{"name": "Salmón",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/06-Gourmet-Salmon-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+		{"name": "Salmón Búfala",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/07-Gourmet-Salmon-Bufala-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+		{"name": "Cabra",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/08-Gorumet-Cabra-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+		{"name": "Bacalao",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/09-Gorumet-Bacalao-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+		{"name": "Veraniega",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/10-Gourmet-Veraniega-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+		{"name": "Parmigiana",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/11-Gourmet-Parmigiana-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+		{"name": "Huerta",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/12-Gourmet-Huerto-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+		{"name": "Búfala",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/13-Gourmet-Bufala-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+		{"name": "Funghi Porcini",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/14-Gourmet-Funghi-Porcini-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+		{"name": "Bresaola",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/15-Gourmet-Bresaola-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+		{"name": "Próvola",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/16-Gourmet-Provola-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+		{"name": "Vegetal",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/18-Vegetal-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+		{"name": "Roquefort",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/21-Roquefort-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+		{"name": "Diavolo",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/23-Diabolo-con-Bufala-y-Albahaca-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+		{"name": "Bresaola",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/15-Gourmet-Bresaola-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+		{"name": "Provolone",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/28-Fugazza-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+		{"name": "Versubio",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/27-Vesubio-2-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 1500,
+				"discount": 10,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+		{"name": "En Calzón",
+			"img": "https://pizzuela.es/wp-content/uploads/2024/09/Calzone-Pizza-Pizzuela-550x550.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 980,
+				"discount": 80,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+		{"name": "En Cono",
+			"img": "https://elcervantes.com.ar/wp-content/uploads/2020/10/Cono.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course"
+			},
+			"price": {
+				"total": 860,
+				"discount": 70,
+				"taxation": 15
+			},
+			"stars": 4.8,
+			"total_purchases": 100,
+			"tags": ["gourmet"]
+		},
+    {"name": "Ensalada Cesar",
+      "img": "https://static.vecteezy.com/system/resources/previews/036/353/657/non_2x/ai-generated-caesar-salad-in-bowl-on-transparent-background-image-png.png",
+      "class": {
+        "meal": "lunch",
+        "type": "starter"
+      },
+      "price": {
+        "total": 7800,
+        "discount": 250,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+    {"name": "Ensalada Mixta",
+      "img": "https://pizzuela.es/wp-content/uploads/2024/09/Ensalada-Mixta-1536x1536.png",
+      "class": {
+        "meal": "lunch",
+        "type": "starter"
+      },
+      "price": {
+        "total": 7000,
+        "discount": 500,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+    {"name": "Ensalada Completa",
+      "img": "https://pizzuela.es/wp-content/uploads/2024/09/Ensalada-Completa-1536x1536.png",
+      "class": {
+        "meal": "lunch",
+        "type": "starter"
+      },
+      "price": {
+        "total": 8500,
+        "discount": 5,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+    {"name": "Ensalada Vegetal",
+      "img": "https://pizzuela.es/wp-content/uploads/2024/09/Ensalada-Vegetal-1536x1536.png",
+      "class": {
+        "meal": "lunch",
+        "type": "starter"
+      },
+      "price": {
+        "total": 8000,
+        "discount": 5,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+    {"name": "Ensalada Di Rucula",
+      "img": "https://pizzuela.es/wp-content/uploads/2024/09/Rucula-Ensalda-1536x1536.png",
+      "class": {
+        "meal": "lunch",
+        "type": "starter"
+      },
+      "price": {
+        "total": 8000,
+        "discount": 5,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+    {"name": "Ensalada Caprese",
+      "img": "https://pizzuela.es/wp-content/uploads/2024/09/Ensalada-Caprese-1536x1536.png",
+      "class": {
+        "meal": "lunch",
+        "type": "starter"
+      },
+      "price": {
+        "total": 9000,
+        "discount": 5,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+    {"name": "Pizza de Chocolate",
+      "img": "https://pizzuela.es/wp-content/uploads/2024/09/Pizza-Nutella.png",
+      "class": {
+        "meal": "coffee",
+        "type": "dessert"
+      },
+      "price": {
+        "total": 5500,
+        "discount": 15,
+        "taxation": 20
+      },
+      "stars": 4.5,
+      "total_purchases": 30,
+      "tags": [
+        "chocolate",
+        "vegetarian"
+      ]
+    },
+    {"name": "Pizza de Tiramisú",
+      "img": "https://pizzuela.es/wp-content/uploads/2024/09/Pizza-Dulce-Tiramisu-1536x1536.png",
+      "class": {
+        "meal": "coffee",
+        "type": "dessert"
+      },
+      "price": {
+        "total": 5500,
+        "discount": 15,
+        "taxation": 20
+      },
+      "stars": 4.5,
+      "total_purchases": 30,
+      "tags": [
+        "chocolate",
+        "vegetarian"
+      ]
+    },
+    {"name": "Cannolo Siciliano",
+      "img": "https://pizzuela.es/wp-content/uploads/2024/09/Pizza-Dulce-Cannolo-Siciliano-1536x1536.png",
+      "class": {
+        "meal": "coffee",
+        "type": "dessert"
+      },
+      "price": {
+        "total": 5500,
+        "discount": 15,
+        "taxation": 20
+      },
+      "stars": 4.5,
+      "total_purchases": 30,
+      "tags": [
+        "chocolate",
+        "vegetarian"
+      ]
+    },
+    {"name": "Café Espresso",
+      "img": "https://static.vecteezy.com/system/resources/previews/023/438/448/non_2x/espresso-coffee-cutout-free-png.png",
+      "class": {
+        "meal": "coffee",
+        "type": "beverage"
+      },
+      "price": {
+        "total": 4800,
+        "discount": 450,
+        "taxation": 5
+      },
+      "stars": 4.7,
+      "total_purchases": 50,
+      "tags": [
+        "caffeine",
+        "hot"
+      ]
+    }
+  ],
+  "src": [
+	"https://pizzuela.es/",
+	"https://tutsypizza.com/menu/"
+  ]
+}

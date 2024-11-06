@@ -1,0 +1,195 @@
+section.heading,
+section.menu{
+	width: 100%;
+	display: flex;
+}
+section.heading{
+	height: calc(100vh - 6rem);
+	flex-direction: column;
+	h2{
+		margin-top: 1rem;
+		height: 2.25rem;
+		width: 100%;
+		border-bottom: 1px solid var(--font-color-soft);
+	}
+}
+.offers{
+	height: calc(100% - 17.5rem);
+	background: url(/src/assets/mesa.jpg);
+	background-position: bottom;
+	background-size: cover;
+	border-radius: 2rem;
+	position: relative;
+}
+.offers_title{
+	position: absolute;
+	bottom: 1rem;
+	left: 5%;
+	color: var(--bg-color);
+	text-shadow: 0 0 .5rem var(--font-color);
+	z-index: 3;
+	font-size: 1.5rem;
+	user-select: none;
+}
+.offers_content{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	img{
+		z-index: 2;
+		width: 70%;
+		height: 110%;
+		object-fit: contain;
+		transition: all .5s ease-in-out;
+		transform: translateY(-1.5rem);
+		user-select: none;
+	}
+}
+.offers:hover img{
+	transform: translateY(-2.5rem);
+}
+.offers .search{
+	z-index: 3;
+	background: var(--color-1);
+	border-radius: 1rem 2rem 0 1rem;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 16rem;
+	height: 2rem;
+	display: flex;
+	align-items: center;
+	padding: 0 1.25rem 0 .5rem;
+	gap: .25rem;
+	cursor: pointer;
+}
+.offers .search svg{
+	width: 1.5rem;
+}
+.offers .search input[type="search"]{
+	background: transparent;
+	width: calc(100% - 1.5rem);
+	height: 100%;
+}
+.offers .search input[type="search"]::placeholder{
+	color: var(--font-color-soft);
+}
+.offers .search input[type="search"]::-webkit-search-cancel-button{
+	-webkit-appearance: none;
+	height: 1rem;
+	width: 1rem;
+	background: url(https://pro.fontawesome.com/releases/v5.10.0/svgs/solid/times-circle.svg) no-repeat 50% 50%;
+	background-size: contain;
+	opacity: .7;
+	transition: all .4s;
+}
+.categories{
+	width: 100%;
+	height: 7.125rem;
+	padding: .5rem;
+	overflow-x: scroll;
+	display: flex;
+	gap: 1rem;
+	.category{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: .5rem;
+		height: 100%;
+		aspect-ratio: 3 / 2;
+		border-radius: 1.25rem;
+		background: var(--bg-color-card);
+		color: var(--color-4);
+		transition: all .1s ease;
+		cursor: pointer;
+		user-select: none;
+		svg{
+			height: 1.75rem;
+			transition: all .1s ease;
+		}
+	}
+	.category:hover{
+		background: var(--bg-color-card-hover);
+		color: var(--color-5);
+		svg{
+			transform: scale(1.15);
+		}
+	}
+}
+.categories::-webkit-scrollbar{
+	background-color: transparent;
+	height: .75rem;
+	padding: 0 2px;
+}
+.categories::-webkit-scrollbar:hover{
+	background-color: var(--bg-color-card);
+}
+.categories::-webkit-scrollbar-thumb{
+	background-color: var(--bg-color-card-hover);
+	margin: 0 2px;
+}
+
+/* Menu Section */
+section.menu{
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 1rem;
+}
+section.menu article{
+	width: 11rem;
+	height: fit-content;
+	border-radius: .5rem;
+	background: var(--bg-color-card);
+	padding: .5rem;
+	user-select: none;
+	cursor: pointer;
+	transition: background .3s ease;
+}
+section.menu article .name{
+	width: 100%;
+	height: 2.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	h4{
+		display: -webkit-box;
+		line-clamp: 2;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
+section.menu .img_container{
+	width: 100%;
+	aspect-ratio: 1 / 1;
+	pointer-events: none;
+	transition: transform .3s ease-in-out;
+	img{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}
+section.menu article:hover{
+	background: var(--bg-color-card-hover);
+}
+section.menu article:hover .img_container{
+	transform: translateY(-.75rem);
+}
+section.menu article .price{
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+section.menu article .price h5:first-child{
+	text-decoration: line-through;
+	color: var(--font-color-soft);
+}
+@media (max-width: 500px){
+	section.menu article{
+		width: 9rem;
+	}
+}
