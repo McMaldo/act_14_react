@@ -47,6 +47,7 @@
         --bg-color-link-hover: #535bf2;
         --bg-color-card: rgba(100, 108, 255, 0.15);
         --bg-color-card-hover: rgba(102, 110, 255, 0.25);
+        --bg-color-card-shadow: rgba(0, 0, 0, 0.2);
 
         /* main colors */
         --color-1: #f1a585;

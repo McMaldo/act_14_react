@@ -4,11 +4,12 @@
 			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/CLASSIC-653x653_c.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1000,
-				"discount": 10,
+				"total": 15000,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4,
@@ -19,10 +20,11 @@
 			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/NAPO.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1100,
+				"total": 15100,
 				"discount": 5,
 				"taxation": 15
 			},
@@ -34,10 +36,11 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/25-Fugazzeta-Rellena-1024x1024.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1150,
+				"total": 15150,
 				"discount": 0,
 				"taxation": 15
 			},
@@ -49,10 +52,11 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/28-Fugazza-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1150,
+				"total": 15150,
 				"discount": 0,
 				"taxation": 15
 			},
@@ -64,10 +68,11 @@
 			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/4QUESOS-653x653_c.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1300,
+				"total": 15300,
 				"discount": 15,
 				"taxation": 15
 			},
@@ -79,11 +84,12 @@
 			"img": "https://static.vecteezy.com/system/resources/previews/037/496/555/non_2x/ai-generated-margherita-pizza-with-basil-free-png.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1200,
-				"discount": 10,
+				"total": 15200,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.6,
@@ -94,10 +100,11 @@
 			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/PEPPERONI-653x653_c.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1400,
+				"total": 15400,
 				"discount": 20,
 				"taxation": 15
 			},
@@ -109,10 +116,11 @@
 			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/HAWAIIANA-653x653_c.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1350,
+				"total": 15350,
 				"discount": 5,
 				"taxation": 15
 			},
@@ -124,11 +132,12 @@
 			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/CHICKEN-653x653_c.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1450,
-				"discount": 10,
+				"total": 15450,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.9,
@@ -139,11 +148,12 @@
 			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/PORK-copia-653x653_c.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1450,
-				"discount": 10,
+				"total": 15450,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.9,
@@ -154,10 +164,11 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/05-Gourmet-Italia-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1100,
+				"total": 15100,
 				"discount": 15,
 				"taxation": 15
 			},
@@ -169,11 +180,12 @@
 			"img": "https://png.pngtree.com/png-vector/20240728/ourmid/pngtree-a-pizza-with-meat-cheese-and-other-toppings-on-it-png-image_13267573.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 17500,
+				"discount": 1500,
 				"taxation": 15
 			},
 			"stars": 5,
@@ -184,11 +196,12 @@
 			"img": "https://opetiscoarteixo.com/wp-content/uploads/2021/04/pizza2.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1200,
-				"discount": 5,
+				"total": 16200,
+				"discount": 2000,
 				"taxation": 10
 			},
 			"stars": 4.1,
@@ -199,11 +212,12 @@
 			"img": "https://pizzarius.es/wp-content/uploads/2023/09/pizza-atun-01.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1300,
-				"discount": 10,
+				"total": 154300,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.3,
@@ -214,10 +228,11 @@
 			"img": "https://static.vecteezy.com/system/resources/previews/043/848/557/non_2x/crust-italian-sausage-pizza-free-png.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1400,
+				"total": 12400,
 				"discount": 15,
 				"taxation": 20
 			},
@@ -229,10 +244,11 @@
 			"img": "https://tutsypizza.com/wp-content/uploads/2023/09/pizza-vegana-2-653x653_c.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1250,
+				"total": 15250,
 				"discount": 5,
 				"taxation": 10
 			},
@@ -244,10 +260,11 @@
 			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/VEGGIE-653x653_c.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1250,
+				"total": 15250,
 				"discount": 5,
 				"taxation": 10
 			},
@@ -259,11 +276,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/01-Gourmet-Mortadella-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1350,
-				"discount": 10,
+				"total": 15350,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.4,
@@ -274,11 +292,12 @@
 			"img": "https://static.vecteezy.com/system/resources/previews/036/497/923/non_2x/ai-generated-a-top-down-view-of-delicious-chicken-pizza-on-transparent-background-free-png.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1400,
-				"discount": 10,
+				"total": 15400,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.7,
@@ -289,10 +308,11 @@
 			"img": "https://marcoluccio.com.br/wp-content/uploads/2021/03/marco_luccio_rucula_BRUNNO_0521_0385.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1300,
+				"total": 15300,
 				"discount": 5,
 				"taxation": 10
 			},
@@ -304,11 +324,12 @@
 			"img": "https://www.pizzeriaelhornoazul.com/wp-content/uploads/2022/12/mediterranea.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1350,
-				"discount": 10,
+				"total": 15350,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.6,
@@ -319,11 +340,12 @@
 			"img": "https://sugosugo.in/wp-content/uploads/2023/10/LA-MEDITERRANEA.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1350,
-				"discount": 10,
+				"total": 15350,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.6,
@@ -334,11 +356,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/Categoria-Pizzas-a-la-Piedra.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 15500,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -349,11 +372,12 @@
 			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/ESPECIAL-653x653_c.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 15500,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -364,11 +388,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/02-Gourmet-Noruega-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 15500,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -379,11 +404,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/03-Gourmet-Piemonte-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 15500,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -394,11 +420,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/04-Gourmet-PilPil-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 15500,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -409,11 +436,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/06-Gourmet-Salmon-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 15500,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -424,11 +452,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/07-Gourmet-Salmon-Bufala-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 15500,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -439,11 +468,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/08-Gorumet-Cabra-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 15500,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -454,11 +484,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/09-Gorumet-Bacalao-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 15500,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -469,11 +500,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/10-Gourmet-Veraniega-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 15500,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -484,11 +516,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/11-Gourmet-Parmigiana-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 15500,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -499,11 +532,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/12-Gourmet-Huerto-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 15500,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -514,11 +548,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/13-Gourmet-Bufala-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 15500,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -529,11 +564,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/14-Gourmet-Funghi-Porcini-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 15500,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -544,11 +580,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/15-Gourmet-Bresaola-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 15500,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -559,11 +596,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/16-Gourmet-Provola-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 15500,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -574,11 +612,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/18-Vegetal-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 15500,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -589,11 +628,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/21-Roquefort-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 15500,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -604,11 +644,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/23-Diabolo-con-Bufala-y-Albahaca-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 15500,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -619,11 +660,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/15-Gourmet-Bresaola-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 15500,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -634,11 +676,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/28-Fugazza-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 15500,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -649,11 +692,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/27-Vesubio-2-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 1500,
-				"discount": 10,
+				"total": 15500,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -664,11 +708,12 @@
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/Calzone-Pizza-Pizzuela-550x550.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 980,
-				"discount": 80,
+				"total": 8980,
+				"discount": 1000,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -679,11 +724,12 @@
 			"img": "https://elcervantes.com.ar/wp-content/uploads/2020/10/Cono.png",
 			"class": {
 				"meal": "lunch",
-				"type": "main course"
+				"type": "main course",
+				"category": "pizza"
 			},
 			"price": {
-				"total": 860,
-				"discount": 70,
+				"total": 5600,
+				"discount": 700,
 				"taxation": 15
 			},
 			"stars": 4.8,
@@ -694,7 +740,8 @@
       "img": "https://static.vecteezy.com/system/resources/previews/036/353/657/non_2x/ai-generated-caesar-salad-in-bowl-on-transparent-background-image-png.png",
       "class": {
         "meal": "lunch",
-        "type": "starter"
+        "type": "starter",
+		"category": "salad"
       },
       "price": {
         "total": 7800,
@@ -712,7 +759,8 @@
       "img": "https://pizzuela.es/wp-content/uploads/2024/09/Ensalada-Mixta-1536x1536.png",
       "class": {
         "meal": "lunch",
-        "type": "starter"
+        "type": "starter",
+		"category": "salad"
       },
       "price": {
         "total": 7000,
@@ -730,7 +778,8 @@
       "img": "https://pizzuela.es/wp-content/uploads/2024/09/Ensalada-Completa-1536x1536.png",
       "class": {
         "meal": "lunch",
-        "type": "starter"
+        "type": "starter",
+		"category": "salad"
       },
       "price": {
         "total": 8500,
@@ -748,7 +797,8 @@
       "img": "https://pizzuela.es/wp-content/uploads/2024/09/Ensalada-Vegetal-1536x1536.png",
       "class": {
         "meal": "lunch",
-        "type": "starter"
+        "type": "starter",
+		"category": "salad"
       },
       "price": {
         "total": 8000,
@@ -766,7 +816,8 @@
       "img": "https://pizzuela.es/wp-content/uploads/2024/09/Rucula-Ensalda-1536x1536.png",
       "class": {
         "meal": "lunch",
-        "type": "starter"
+        "type": "starter",
+		"category": "salad"
       },
       "price": {
         "total": 8000,
@@ -784,7 +835,8 @@
       "img": "https://pizzuela.es/wp-content/uploads/2024/09/Ensalada-Caprese-1536x1536.png",
       "class": {
         "meal": "lunch",
-        "type": "starter"
+        "type": "starter",
+		"category": "salad"
       },
       "price": {
         "total": 9000,
@@ -802,7 +854,8 @@
       "img": "https://pizzuela.es/wp-content/uploads/2024/09/Pizza-Nutella.png",
       "class": {
         "meal": "coffee",
-        "type": "dessert"
+        "type": "dessert",
+		"category": "dessert"
       },
       "price": {
         "total": 5500,
@@ -820,7 +873,8 @@
       "img": "https://pizzuela.es/wp-content/uploads/2024/09/Pizza-Dulce-Tiramisu-1536x1536.png",
       "class": {
         "meal": "coffee",
-        "type": "dessert"
+        "type": "dessert",
+		"category": "dessert"
       },
       "price": {
         "total": 5500,
@@ -838,7 +892,8 @@
       "img": "https://pizzuela.es/wp-content/uploads/2024/09/Pizza-Dulce-Cannolo-Siciliano-1536x1536.png",
       "class": {
         "meal": "coffee",
-        "type": "dessert"
+        "type": "dessert",
+		"category": "dessert"
       },
       "price": {
         "total": 5500,
@@ -856,11 +911,12 @@
       "img": "https://static.vecteezy.com/system/resources/previews/023/438/448/non_2x/espresso-coffee-cutout-free-png.png",
       "class": {
         "meal": "coffee",
-        "type": "beverage"
+        "type": "beverage",
+		"category": "coffee"
       },
       "price": {
-        "total": 4800,
-        "discount": 450,
+        "total": 4500,
+        "discount": 550,
         "taxation": 5
       },
       "stars": 4.7,
