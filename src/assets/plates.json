@@ -736,6 +736,443 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
+		{"name": "Hamburguesa (Cajita Feliz)",
+      "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqXbQnzY/200/200/original?country=ar",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 3700,
+        "discount": 250,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+		{"name": "Hamburguesa",
+      "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqXzqebG/200/200/original?country=ar",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 5000,
+        "discount": 250,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+		{"name": "Hamburguesa con Queso",
+      "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqX8TYcp/200/200/original?country=ar",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 5800,
+        "discount": 250,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+		{"name": "McFiesta Jr. (Cajita Feliz)",
+      "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqXB9EyQ/200/200/original?country=ar",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 4600,
+        "discount": 250,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+		{"name": "McFiesta",
+      "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqXakvb9/200/200/original?country=ar",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 5600,
+        "discount": 250,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+		{"name": "Doble Carne Doble Queso",
+      "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$krXm2g5T/200/200/original?country=ar",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 5000,
+        "discount": 250,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+		{"name": "Triple Hamburguesa con Queso",
+      "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqXsCqnz/200/200/original?country=ar",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 5000,
+        "discount": 250,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+		{"name": "Big Mac",
+      "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqX3vl0y/200/200/original?country=ar",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 7800,
+        "discount": 250,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+		{"name": "Cuarto de Libra con Queso",
+      "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqXTUDbN/200/200/original?country=ar",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 5000,
+        "discount": 250,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+		{"name": "McNífica",
+      "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqXXaUUP/200/200/original?country=ar",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 8000,
+        "discount": 250,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+		{"name": "Doble Cuarto de Libra con Queso",
+      "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqXt7Sq2/200/200/original?country=ar",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 9000,
+        "discount": 250,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+		{"name": "Grand Tasty Doble",
+      "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqX3hBwW/200/200/original?country=ar",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 9000,
+        "discount": 250,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+		{"name": "Grand Tasty Triple",
+      "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqX093YV/200/200/original?country=ar",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 11000,
+        "discount": 300,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+		{"name": "Grand Doble McBacon",
+      "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kQXnpmyG/200/200/original?country=ar",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 9000,
+        "discount": 250,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+		{"name": "Grand Triple McBacon",
+      "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kQX3BMhy/200/200/original?country=ar",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 11000,
+        "discount": 400,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+		{"name": "Grand Tasty Turbo Bacon Doble",
+      "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$ksXkWYU5/200/200/original?country=ar",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 11000,
+        "discount": 250,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+		{"name": "Grand Tasty Turbo Bacon Triple",
+      "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$ksX5rs2H/200/200/original?country=ar",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 14000,
+        "discount": 250,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+		{"name": "Bacon Cheddar McMelt",
+      "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kPXPtaX9/200/200/original?country=ar",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 9000,
+        "discount": 250,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+		{"name": "Grand Leyenda",
+      "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kgXDtPDq/200/200/original?country=ar",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 9800,
+        "discount": 250,
+        "taxation": 10
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+	{"name": "Chazablita",
+      "img": "https://leyendaburger.com/wp-content/uploads/2023/12/burguer-americana-leyenda-burguer.png",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 100000,
+        "discount": 1,
+        "taxation": 10000
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+	{"name": "Chaza Huevo Chaza",
+      "img": "https://leyendaburger.com/wp-content/uploads/2023/12/burguer-la-leyenda-leyenda-burguer.png",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 100000,
+        "discount": 1,
+        "taxation": 10000
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+	{"name": "Super Chazablita",
+      "img": "https://www.pikpng.com/pngl/b/294-2949127_download-high-resolution-png-super-burger-png-clipart.png",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 100000,
+        "discount": 1,
+        "taxation": 10000
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+	{"name": "Super Chazablita Emparedado",
+      "img": "https://www.burgertowers.com/imagenes/Sandwich_Gigante_Towers.png",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 90000,
+        "discount": 1,
+        "taxation": 10000
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
     {"name": "Ensalada Cesar",
       "img": "https://static.vecteezy.com/system/resources/previews/036/353/657/non_2x/ai-generated-caesar-salad-in-bowl-on-transparent-background-image-png.png",
       "class": {
