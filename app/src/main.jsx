@@ -1,7 +1,7 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './assets/index.css';
+import './assets/css/index.css';
 
 // Layouts
 import MainLayout from './layout/Main/MainLayout.jsx';
@@ -16,15 +16,15 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<MainLayout/>}>
-          <Route path="/" element={<Menu/>}/>
-          <Route path="/menu" element={<Menu/>}/>
-          <Route path="/cart" element={<Cart/>}/>
-          <Route path="/login" element={<Login child={<LoginForm/>}/>}/>
-          <Route path="/register" element={<Login child={<RegisterForm/>}/>}/>
+        <Route path="/act_14_react/" element={<MainLayout/>}>
+          <Route path="/act_14_react/" element={<Menu/>}/>
+          <Route path="/act_14_react/menu" element={<Menu/>}/>
+          <Route path="/act_14_react/cart" element={<Cart/>}/>
+          <Route path="/act_14_react/login" element={<Login child={<LoginForm/>}/>}/>
+          <Route path="/act_14_react/register" element={<Login child={<RegisterForm/>}/>}/>
         </Route>
-        <Route path="/landing" element={<LandingLayout/>}>
-          {/* <Route path="/act_11_react" element={<Act_6/>}/> */}
+        <Route path="/act_14_react/landing" element={<LandingLayout/>}>
+          {/* <Route path="/act_14_react/landing" element={<AboutApp/>}/> */}
         </Route>
         <Route path='*' element={<Error/>}/>
       </Routes>

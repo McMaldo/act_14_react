@@ -15,7 +15,7 @@ section.heading{
 }
 .offers{
 	height: calc(100% - 17.5rem);
-	background: url(/src/assets/mesa.jpg);
+	background: url(/src/assets/img/mesa.jpg);
 	background-position: bottom;
 	background-size: cover;
 	border-radius: 2rem;
@@ -36,18 +36,15 @@ section.heading{
 	height: 100%;
 	display: flex;
 	justify-content: center;
-	img{
-		z-index: 2;
-		width: 70%;
-		height: 110%;
-		object-fit: contain;
-		transition: all .5s ease-in-out;
-		transform: translateY(-1.5rem);
-		user-select: none;
-	}
+	background: url(/src/assets/img/PizzaPortada.webp);
+	background-repeat: no-repeat;
+	background-position: 50% 55%;
+	background-size: 55%;
+	transition: all .3s ease-in-out;
+	z-index: 2;
 }
-.offers:hover img{
-	transform: translateY(-2.5rem);
+.offers:hover .offers_content{
+	background-position: 50% 45%;
 }
 .offers .search{
 	z-index: 3;

@@ -1,8 +1,10 @@
-# React + Vite
+# App: React.js + Vite
+<img src="https://github.com/McMaldo/McMaldo/raw/main/icons/React-Dark.svg" width=50>
+<img src="https://github.com/McMaldo/McMaldo/raw/main/icons/Vite-Dark.svg" width=50>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Api: Node.js + Express
+<img src="https://github.com/McMaldo/McMaldo/raw/main/icons/NodeJS-Dark.svg" width=50>
+<img src="https://github.com/McMaldo/McMaldo/raw/main/icons/ExpressJS-Dark.svg" width=50>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# DB: MySQL
+<img src="https://github.com/McMaldo/McMaldo/raw/main/icons/MySQL-Dark.svg" width=50>

@@ -47,9 +47,7 @@ export default function Menu() {
 					<div className={s.offers_title}>
 						<h3>Ofertas de Re Chupete</h3>
 					</div>
-					<div className={s.offers_content}>
-						<img src="/src/assets/PizzaPortada.webp" alt="" />
-					</div>
+					<div className={s.offers_content}></div>
 					<div className={s.search}>
 						<FontAwesomeIcon icon={faMagnifyingGlass} />
 						<input type="search" name="food" id="search" placeholder='What do you want to eat?'/>
