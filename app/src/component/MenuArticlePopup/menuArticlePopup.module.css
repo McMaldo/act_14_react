@@ -24,7 +24,10 @@
 	background: var(--bg-color-main);
 	border-bottom: 3px solid var(--color-4);
 	transition: background .3s ease;
-    position: relative;
+	transform: translate(-50%, -50%);
+	position: fixed;
+    left: 50%;
+    top: 50%;
 }
 .close{
     z-index: 8;

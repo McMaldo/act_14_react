@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useLocalStorage } from "@uidotdev/usehooks";
 import s from './menu.module.css';
 import plates from '../../assets/plates.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -19,7 +20,7 @@ export function addToCart(product) {
 	}*/
 }
 export default function Menu() {
-	let [plateSelected, setPlateSelected] = useState(false);
+	let [plateSelected, setPlateSelected] = useLocalStorage("plateSelected", false);
 	const categories = [
 		{name:"appetizer",icon:faUtensils},
 		{name:"pizza",icon:faPizzaSlice},
@@ -37,10 +38,7 @@ export default function Menu() {
 	}
 	return (
 		<>
-			{plateSelected ? 
-			<div className={s.menuArticleOverlay} onClick={() => setPlateSelected(false)}>
-				<MenuArticlePopup plateSelected={plateSelected}/>
-			</div> : ""}
+			{plateSelected ? <MenuArticlePopup plateSelected={plateSelected}/> : ""}
 			<section className={s.heading}>
 				<h1>Welcome to Chazablita</h1>
 				<div className={s.offers}>

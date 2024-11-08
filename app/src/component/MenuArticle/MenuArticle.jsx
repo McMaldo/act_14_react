@@ -1,10 +1,19 @@
 import React, { useState } from 'react';
+import { useLocalStorage } from "@uidotdev/usehooks";
 import s from './menuArticle.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
 
 export default function MenuArticle({plate}) {
-    let [isAddedToCart, setAddedToCart] = useState(false);
+    let [isAddedToCart, setAddedToCart] = useLocalStorage("plate_"+plate.name,false);
+    let [cart, setCart] = useLocalStorage("chazablitaCart", []);
+    function addToCart() {
+        setAddedToCart(true);
+        setCart(cart.concat(plate));
+    }
+    function deleteFromCart() {
+        setAddedToCart(false);
+    }
 
     return (
         <article className={s.menuArticle+" "+plate.class.category}>
@@ -19,10 +28,10 @@ export default function MenuArticle({plate}) {
                 <h5>${plate.price.total - plate.price.discount}</h5>
             </div>
             {isAddedToCart? 
-            (<button className={s.addedToCart}>
+            (<button onClick={() => deleteFromCart()} className={s.addedToCart}>
                 <span>Added to Cart</span>
             </button>):
-            (<button onClick={() => setAddedToCart(true)}>
+            (<button onClick={() => addToCart()}>
                 <FontAwesomeIcon icon={faCartPlus}/>
                 <span>Add to Cart</span>
             </button>)}
