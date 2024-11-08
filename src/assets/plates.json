@@ -1,6 +1,6 @@
 {
   "result": [
-		{"name": "Muzzarela",
+			{"name": "Muzzarela",
 			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/CLASSIC-653x653_c.png",
 			"class": {
 				"meal": "lunch",
@@ -16,7 +16,7 @@
 			"total_purchases": 150,
 			"tags": ["vegan", "dietetic"]
 		},
-		{"name": "Napolitana",
+			{"name": "Napolitana",
 			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/NAPO.png",
 			"class": {
 				"meal": "lunch",
@@ -32,7 +32,7 @@
 			"total_purchases": 120,
 			"tags": ["sugar free", "dietetic"]
 		},
-		{"name": "Fugazzetta Rellena",
+			{"name": "Fugazzetta Rellena",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/25-Fugazzeta-Rellena-1024x1024.png",
 			"class": {
 				"meal": "lunch",
@@ -48,7 +48,7 @@
 			"total_purchases": 90,
 			"tags": ["onion", "cheese"]
 		},
-		{"name": "Fugazzetta",
+			{"name": "Fugazzetta",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/28-Fugazza-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -64,7 +64,7 @@
 			"total_purchases": 90,
 			"tags": ["onion", "cheese"]
 		},
-		{"name": "Cuatro Quesos",
+			{"name": "Cuatro Quesos",
 			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/4QUESOS-653x653_c.png",
 			"class": {
 				"meal": "lunch",
@@ -80,7 +80,7 @@
 			"total_purchases": 80,
 			"tags": ["cheese", "gourmet"]
 		},
-		{"name": "Margarita",
+			{"name": "Margarita",
 			"img": "https://static.vecteezy.com/system/resources/previews/037/496/555/non_2x/ai-generated-margherita-pizza-with-basil-free-png.png",
 			"class": {
 				"meal": "lunch",
@@ -96,7 +96,7 @@
 			"total_purchases": 140,
 			"tags": ["basil", "vegetarian"]
 		},
-		{"name": "Pepperoni",
+			{"name": "Pepperoni",
 			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/PEPPERONI-653x653_c.png",
 			"class": {
 				"meal": "lunch",
@@ -112,7 +112,7 @@
 			"total_purchases": 200,
 			"tags": ["spicy", "meat"]
 		},
-		{"name": "Hawaiana",
+			{"name": "Hawaiana",
 			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/HAWAIIANA-653x653_c.png",
 			"class": {
 				"meal": "lunch",
@@ -128,7 +128,7 @@
 			"total_purchases": 70,
 			"tags": ["pineapple", "ham"]
 		},
-		{"name": "BBQ Chicken",
+			{"name": "BBQ Chicken",
 			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/CHICKEN-653x653_c.png",
 			"class": {
 				"meal": "lunch",
@@ -144,7 +144,7 @@
 			"total_purchases": 65,
 			"tags": ["chicken", "barbecue"]
 		},
-		{"name": "BBQ Pork",
+			{"name": "BBQ Pork",
 			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/PORK-copia-653x653_c.png",
 			"class": {
 				"meal": "lunch",
@@ -160,7 +160,7 @@
 			"total_purchases": 65,
 			"tags": ["chicken", "barbecue"]
 		},
-		{"name": "Italia",
+			{"name": "Italia",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/05-Gourmet-Italia-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -176,7 +176,7 @@
 			"total_purchases": 50,
 			"tags": ["vegetarian", "healthy"]
 		},
-		{"name": "Carne",
+			{"name": "Carne",
 			"img": "https://png.pngtree.com/png-vector/20240728/ourmid/pngtree-a-pizza-with-meat-cheese-and-other-toppings-on-it-png-image_13267573.png",
 			"class": {
 				"meal": "lunch",
@@ -192,7 +192,7 @@
 			"total_purchases": 100,
 			"tags": ["meat", "spicy"]
 		},
-		{"name": "Champiñones",
+			{"name": "Champiñones",
 			"img": "https://opetiscoarteixo.com/wp-content/uploads/2021/04/pizza2.png",
 			"class": {
 				"meal": "lunch",
@@ -208,7 +208,7 @@
 			"total_purchases": 85,
 			"tags": ["mushroom", "vegetarian"]
 		},
-		{"name": "Atún",
+			{"name": "Atún",
 			"img": "https://pizzarius.es/wp-content/uploads/2023/09/pizza-atun-01.png",
 			"class": {
 				"meal": "lunch",
@@ -224,7 +224,7 @@
 			"total_purchases": 95,
 			"tags": ["fish", "seafood"]
 		},
-		{"name": "Salchicha",
+			{"name": "Salchicha",
 			"img": "https://static.vecteezy.com/system/resources/previews/043/848/557/non_2x/crust-italian-sausage-pizza-free-png.png",
 			"class": {
 				"meal": "lunch",
@@ -240,7 +240,7 @@
 			"total_purchases": 110,
 			"tags": ["sausage", "spicy"]
 		},
-		{"name": "Vegana",
+			{"name": "Vegana",
 			"img": "https://tutsypizza.com/wp-content/uploads/2023/09/pizza-vegana-2-653x653_c.png",
 			"class": {
 				"meal": "lunch",
@@ -256,7 +256,7 @@
 			"total_purchases": 75,
 			"tags": ["vegan", "healthy"]
 		},
-		{"name": "Veggie",
+			{"name": "Veggie",
 			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/VEGGIE-653x653_c.png",
 			"class": {
 				"meal": "lunch",
@@ -272,7 +272,7 @@
 			"total_purchases": 75,
 			"tags": ["vegan", "healthy"]
 		},
-		{"name": "Mortadella",
+			{"name": "Mortadella",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/01-Gourmet-Mortadella-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -288,7 +288,7 @@
 			"total_purchases": 120,
 			"tags": ["not vegan"]
 		},
-		{"name": "Pollo",
+			{"name": "Pollo",
 			"img": "https://static.vecteezy.com/system/resources/previews/036/497/923/non_2x/ai-generated-a-top-down-view-of-delicious-chicken-pizza-on-transparent-background-free-png.png",
 			"class": {
 				"meal": "lunch",
@@ -304,7 +304,7 @@
 			"total_purchases": 100,
 			"tags": ["chicken", "protein"]
 		},
-		{"name": "Rúcula",
+			{"name": "Rúcula",
 			"img": "https://marcoluccio.com.br/wp-content/uploads/2021/03/marco_luccio_rucula_BRUNNO_0521_0385.png",
 			"class": {
 				"meal": "lunch",
@@ -320,7 +320,7 @@
 			"total_purchases": 60,
 			"tags": ["arugula", "gourmet"]
 		},
-		{"name": "Mediterránea",
+			{"name": "Mediterránea",
 			"img": "https://www.pizzeriaelhornoazul.com/wp-content/uploads/2022/12/mediterranea.png",
 			"class": {
 				"meal": "lunch",
@@ -336,7 +336,7 @@
 			"total_purchases": 90,
 			"tags": ["olives", "feta"]
 		},
-		{"name": "Mediterránea a la Piedra",
+			{"name": "Mediterránea a la Piedra",
 			"img": "https://sugosugo.in/wp-content/uploads/2023/10/LA-MEDITERRANEA.png",
 			"class": {
 				"meal": "lunch",
@@ -352,7 +352,7 @@
 			"total_purchases": 90,
 			"tags": ["olives", "feta"]
 		},
-		{"name": "Mariscos",
+			{"name": "Mariscos",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/Categoria-Pizzas-a-la-Piedra.png",
 			"class": {
 				"meal": "lunch",
@@ -368,7 +368,7 @@
 			"total_purchases": 100,
 			"tags": ["seafood", "gourmet"]
 		},
-		{"name": "Especial",
+			{"name": "Especial",
 			"img": "https://tutsypizza.com/wp-content/uploads/2021/06/ESPECIAL-653x653_c.png",
 			"class": {
 				"meal": "lunch",
@@ -384,7 +384,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "Noruega",
+			{"name": "Noruega",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/02-Gourmet-Noruega-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -400,7 +400,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "Piemonte",
+			{"name": "Piemonte",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/03-Gourmet-Piemonte-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -416,7 +416,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "Pil-Pil",
+			{"name": "Pil-Pil",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/04-Gourmet-PilPil-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -432,7 +432,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "Salmón",
+			{"name": "Salmón",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/06-Gourmet-Salmon-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -448,7 +448,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "Salmón Búfala",
+			{"name": "Salmón Búfala",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/07-Gourmet-Salmon-Bufala-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -464,7 +464,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "Cabra",
+			{"name": "Cabra",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/08-Gorumet-Cabra-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -480,7 +480,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "Bacalao",
+			{"name": "Bacalao",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/09-Gorumet-Bacalao-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -496,7 +496,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "Veraniega",
+			{"name": "Veraniega",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/10-Gourmet-Veraniega-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -512,7 +512,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "Parmigiana",
+			{"name": "Parmigiana",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/11-Gourmet-Parmigiana-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -528,7 +528,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "Huerta",
+			{"name": "Huerta",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/12-Gourmet-Huerto-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -544,7 +544,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "Búfala",
+			{"name": "Búfala",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/13-Gourmet-Bufala-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -560,7 +560,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "Funghi Porcini",
+			{"name": "Funghi Porcini",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/14-Gourmet-Funghi-Porcini-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -576,7 +576,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "Bresaola",
+			{"name": "Bresaola",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/15-Gourmet-Bresaola-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -592,7 +592,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "Próvola",
+			{"name": "Próvola",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/16-Gourmet-Provola-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -608,7 +608,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "Vegetal",
+			{"name": "Vegetal",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/18-Vegetal-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -624,7 +624,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "Roquefort",
+			{"name": "Roquefort",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/21-Roquefort-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -640,7 +640,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "Diavolo",
+			{"name": "Diavolo",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/23-Diabolo-con-Bufala-y-Albahaca-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -656,7 +656,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "Bresaola",
+			{"name": "Bresaola",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/15-Gourmet-Bresaola-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -672,7 +672,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "Provolone",
+			{"name": "Provolone",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/28-Fugazza-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -688,7 +688,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "Versubio",
+			{"name": "Versubio",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/27-Vesubio-2-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -704,7 +704,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "En Calzón",
+			{"name": "En Calzón",
 			"img": "https://pizzuela.es/wp-content/uploads/2024/09/Calzone-Pizza-Pizzuela-550x550.png",
 			"class": {
 				"meal": "lunch",
@@ -720,7 +720,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "En Cono",
+			{"name": "En Cono",
 			"img": "https://elcervantes.com.ar/wp-content/uploads/2020/10/Cono.png",
 			"class": {
 				"meal": "lunch",
@@ -736,7 +736,7 @@
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
-		{"name": "Hamburguesa (Cajita Feliz)",
+			{"name": "Hamburguesa (Cajita Feliz)",
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqXbQnzY/200/200/original?country=ar",
       "class": {
         "meal": "lunch",
@@ -755,7 +755,7 @@
         "low carb"
       ]
     },
-		{"name": "Hamburguesa",
+			{"name": "Hamburguesa",
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqXzqebG/200/200/original?country=ar",
       "class": {
         "meal": "lunch",
@@ -774,7 +774,7 @@
         "low carb"
       ]
     },
-		{"name": "Hamburguesa con Queso",
+			{"name": "Hamburguesa con Queso",
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqX8TYcp/200/200/original?country=ar",
       "class": {
         "meal": "lunch",
@@ -793,7 +793,7 @@
         "low carb"
       ]
     },
-		{"name": "McFiesta Jr. (Cajita Feliz)",
+			{"name": "McFiesta Jr. (Cajita Feliz)",
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqXB9EyQ/200/200/original?country=ar",
       "class": {
         "meal": "lunch",
@@ -812,7 +812,7 @@
         "low carb"
       ]
     },
-		{"name": "McFiesta",
+			{"name": "McFiesta",
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqXakvb9/200/200/original?country=ar",
       "class": {
         "meal": "lunch",
@@ -831,7 +831,7 @@
         "low carb"
       ]
     },
-		{"name": "Doble Carne Doble Queso",
+			{"name": "Doble Carne Doble Queso",
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$krXm2g5T/200/200/original?country=ar",
       "class": {
         "meal": "lunch",
@@ -850,7 +850,7 @@
         "low carb"
       ]
     },
-		{"name": "Triple Hamburguesa con Queso",
+			{"name": "Triple Hamburguesa con Queso",
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqXsCqnz/200/200/original?country=ar",
       "class": {
         "meal": "lunch",
@@ -869,7 +869,7 @@
         "low carb"
       ]
     },
-		{"name": "Big Mac",
+			{"name": "Big Mac",
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqX3vl0y/200/200/original?country=ar",
       "class": {
         "meal": "lunch",
@@ -888,7 +888,7 @@
         "low carb"
       ]
     },
-		{"name": "Cuarto de Libra con Queso",
+			{"name": "Cuarto de Libra con Queso",
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqXTUDbN/200/200/original?country=ar",
       "class": {
         "meal": "lunch",
@@ -907,7 +907,7 @@
         "low carb"
       ]
     },
-		{"name": "McNífica",
+			{"name": "McNífica",
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqXXaUUP/200/200/original?country=ar",
       "class": {
         "meal": "lunch",
@@ -926,7 +926,7 @@
         "low carb"
       ]
     },
-		{"name": "Doble Cuarto de Libra con Queso",
+			{"name": "Doble Cuarto de Libra con Queso",
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqXt7Sq2/200/200/original?country=ar",
       "class": {
         "meal": "lunch",
@@ -945,7 +945,7 @@
         "low carb"
       ]
     },
-		{"name": "Grand Tasty Doble",
+			{"name": "Grand Tasty Doble",
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqX3hBwW/200/200/original?country=ar",
       "class": {
         "meal": "lunch",
@@ -964,7 +964,7 @@
         "low carb"
       ]
     },
-		{"name": "Grand Tasty Triple",
+			{"name": "Grand Tasty Triple",
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kqX093YV/200/200/original?country=ar",
       "class": {
         "meal": "lunch",
@@ -983,7 +983,7 @@
         "low carb"
       ]
     },
-		{"name": "Grand Doble McBacon",
+			{"name": "Grand Doble McBacon",
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kQXnpmyG/200/200/original?country=ar",
       "class": {
         "meal": "lunch",
@@ -1002,7 +1002,7 @@
         "low carb"
       ]
     },
-		{"name": "Grand Triple McBacon",
+			{"name": "Grand Triple McBacon",
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kQX3BMhy/200/200/original?country=ar",
       "class": {
         "meal": "lunch",
@@ -1021,7 +1021,7 @@
         "low carb"
       ]
     },
-		{"name": "Grand Tasty Turbo Bacon Doble",
+			{"name": "Grand Tasty Turbo Bacon Doble",
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$ksXkWYU5/200/200/original?country=ar",
       "class": {
         "meal": "lunch",
@@ -1040,7 +1040,7 @@
         "low carb"
       ]
     },
-		{"name": "Grand Tasty Turbo Bacon Triple",
+			{"name": "Grand Tasty Turbo Bacon Triple",
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$ksX5rs2H/200/200/original?country=ar",
       "class": {
         "meal": "lunch",
@@ -1059,7 +1059,7 @@
         "low carb"
       ]
     },
-		{"name": "Bacon Cheddar McMelt",
+			{"name": "Bacon Cheddar McMelt",
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kPXPtaX9/200/200/original?country=ar",
       "class": {
         "meal": "lunch",
@@ -1078,7 +1078,7 @@
         "low carb"
       ]
     },
-		{"name": "Grand Leyenda",
+			{"name": "Grand Leyenda",
       "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$kgXDtPDq/200/200/original?country=ar",
       "class": {
         "meal": "lunch",
@@ -1097,7 +1097,7 @@
         "low carb"
       ]
     },
-	{"name": "Chazablita",
+		{"name": "Chazablita",
       "img": "https://leyendaburger.com/wp-content/uploads/2023/12/burguer-americana-leyenda-burguer.png",
       "class": {
         "meal": "lunch",
@@ -1105,7 +1105,7 @@
 				"category": "burger"
       },
       "price": {
-        "total": 100000,
+        "total": 26000,
         "discount": 1,
         "taxation": 10000
       },
@@ -1116,7 +1116,7 @@
         "low carb"
       ]
     },
-	{"name": "Chaza Huevo Chaza",
+		{"name": "Chaza Huevo Chaza",
       "img": "https://leyendaburger.com/wp-content/uploads/2023/12/burguer-la-leyenda-leyenda-burguer.png",
       "class": {
         "meal": "lunch",
@@ -1124,7 +1124,7 @@
 				"category": "burger"
       },
       "price": {
-        "total": 100000,
+        "total": 25000,
         "discount": 1,
         "taxation": 10000
       },
@@ -1135,7 +1135,7 @@
         "low carb"
       ]
     },
-	{"name": "Super Chazablita",
+		{"name": "Super Chazablita",
       "img": "https://www.pikpng.com/pngl/b/294-2949127_download-high-resolution-png-super-burger-png-clipart.png",
       "class": {
         "meal": "lunch",
@@ -1143,7 +1143,7 @@
 				"category": "burger"
       },
       "price": {
-        "total": 100000,
+        "total": 45000,
         "discount": 1,
         "taxation": 10000
       },
@@ -1154,15 +1154,16 @@
         "low carb"
       ]
     },
-	{"name": "Super Chazablita Emparedado",
-      "img": "https://www.burgertowers.com/imagenes/Sandwich_Gigante_Towers.png",
+		{"name": "Super Chazablita Emparedado",
+			"img": "https://png.pngtree.com/png-vector/20231113/ourmid/pngtree-oversized-sandwich-sandwich-large-png-image_10440461.png",
+      "imgAlt": "https://www.burgertowers.com/imagenes/Sandwich_Gigante_Towers.png",
       "class": {
         "meal": "lunch",
         "type": "main course",
 				"category": "burger"
       },
       "price": {
-        "total": 90000,
+        "total": 45000,
         "discount": 1,
         "taxation": 10000
       },
@@ -1173,6 +1174,44 @@
         "low carb"
       ]
     },
+		{"name": "Super Fedeguche",
+      "img": "https://png.pngtree.com/png-vector/20240709/ourmid/pngtree-large-sub-sandwich-with-tomato-lettuce-and-ham-on-italian-bread-png-image_13048317.png",
+      "class": {
+        "meal": "lunch",
+        "type": "main course",
+				"category": "burger"
+      },
+      "price": {
+        "total": 45000,
+        "discount": 1,
+        "taxation": 10000
+      },
+      "stars": 5,
+      "total_purchases": 25,
+      "tags": [
+        "gluten free",
+        "low carb"
+      ]
+    },
+		{"name": "Super Fedeguche Emparedado",
+			"img": "https://png.pngtree.com/png-clipart/20240227/original/pngtree-big-sandwich-with-salade-and-hamburger-freshness-photo-png-image_14427439.png",
+			"class": {
+				"meal": "lunch",
+				"type": "main course",
+				"category": "burger"
+			},
+			"price": {
+				"total": 60000,
+				"discount": 1,
+				"taxation": 10000
+			},
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
     {"name": "Ensalada Cesar",
       "img": "https://static.vecteezy.com/system/resources/previews/036/353/657/non_2x/ai-generated-caesar-salad-in-bowl-on-transparent-background-image-png.png",
       "class": {

@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import s from './menu.module.css';
 import plates from '../../assets/plates.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUtensils, faPizzaSlice, faBurger, faBowlFood, faMartiniGlassCitrus, faIceCream, faCoffee, faBacon, faMagnifyingGlass, faCartPlus } from '@fortawesome/free-solid-svg-icons';
 import MenuArticle from '../../component/MenuArticle/MenuArticle';
+import MenuArticlePopup from '../../component/MenuArticlePopup/MenuArticlePopup';
 
 export function addToCart(product) {
 	if(!localStorage.getItem("ChazablitaUserToken")){
@@ -18,6 +19,7 @@ export function addToCart(product) {
 	}*/
 }
 export default function Menu() {
+	let [plateSelected, setPlateSelected] = useState(false);
 	const categories = [
 		{name:"appetizer",icon:faUtensils},
 		{name:"pizza",icon:faPizzaSlice},
@@ -35,6 +37,10 @@ export default function Menu() {
 	}
 	return (
 		<>
+			{plateSelected ? 
+			<div className={s.menuArticleOverlay} onClick={() => setPlateSelected(false)}>
+				<MenuArticlePopup plateSelected={plateSelected}/>
+			</div> : ""}
 			<section className={s.heading}>
 				<h1>Welcome to Chazablita</h1>
 				<div className={s.offers}>
@@ -63,7 +69,9 @@ export default function Menu() {
 			</section>
 			<section className={s.menu}>
 				{plates.result.map((plate, plateKey) => (
-					<MenuArticle plate={plate} key={plateKey}/>
+					<span key={plateKey} onClick={() => setPlateSelected(plate)}>
+						<MenuArticle plate={plate} />
+					</span>
 				))}
 			</section>
 		</>
