@@ -22,7 +22,7 @@
 	flex-direction: column;
 	gap: .25rem;
 	background: var(--bg-color-main);
-	border-bottom: 3px solid var(--color-4);
+	border: 3px solid var(--color-3);
 	transition: background .3s ease;
 	transform: translate(-50%, -50%);
 	position: fixed;
@@ -92,6 +92,9 @@
 }
 .menuArticle button svg{
 	height: 60%;
+}
+.menuArticle:hover{
+	border: 3px solid var(--color-5);
 }
 .menuArticle:hover button{
 	background: var(--color-5);

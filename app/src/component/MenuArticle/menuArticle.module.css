@@ -8,8 +8,8 @@
 	flex-direction: column;
 	gap: .25rem;
 	background: var(--bg-color-card);
-	border-bottom: 3px solid var(--color-4);
-	transition: background .3s ease;
+	border-bottom: 3px solid var(--color-3);
+	transition: all .3s ease;
 }
 .menuArticle .name,
 .menuArticle .price,
@@ -48,6 +48,7 @@
 }
 .menuArticle:hover{
 	background: var(--bg-color-card-hover);
+	border-bottom: 3px solid var(--color-5);
 }
 .menuArticle:hover .img_container{
 	transform: translateY(-.75rem);

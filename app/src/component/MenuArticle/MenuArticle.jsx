@@ -13,6 +13,7 @@ export default function MenuArticle({plate}) {
     }
     function deleteFromCart() {
         setAddedToCart(false);
+        setCart(cart.filter(added => added.name != plate.name));
     }
 
     return (

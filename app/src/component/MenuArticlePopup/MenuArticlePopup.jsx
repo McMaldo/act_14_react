@@ -14,6 +14,7 @@ export default function MenuArticlePopup({plateSelected}) {
     }
     function deleteFromCart() {
         setAddedToCart(false);
+        setCart(cart.filter(added => added.name != plateSelected.name));
     }
 
     return (

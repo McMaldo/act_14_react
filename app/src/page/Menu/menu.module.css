@@ -32,8 +32,10 @@ section.heading{
 	user-select: none;
 }
 .offers_content{
+	position: absolute;
+	top: -10%;
 	width: 100%;
-	height: 100%;
+	height: 120%;
 	display: flex;
 	justify-content: center;
 	background: url(/src/assets/img/PizzaPortada.webp);
@@ -44,7 +46,7 @@ section.heading{
 	z-index: 2;
 }
 .offers:hover .offers_content{
-	background-position: 50% 45%;
+	top: -15%;
 }
 .offers .search{
 	z-index: 3;
