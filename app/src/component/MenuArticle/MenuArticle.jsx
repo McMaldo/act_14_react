@@ -9,6 +9,10 @@ export default function MenuArticle({plate}) {
     let [cart, setCart] = useLocalStorage("chazablitaCart", []);
     function addToCart() {
         setAddedToCart(true);
+        plate = {
+            ...plate,
+            count: 1
+        }
         setCart(cart.concat(plate));
     }
     function deleteFromCart() {

@@ -5,10 +5,15 @@ header {
 	display: flex;
 	justify-content: space-between;
 	box-shadow: 0 0 1rem .5rem var(--bg-color);
+    border-bottom: 2px solid var(--color-5);
 	padding: .5rem 2.5rem;
 	position: sticky;
-	color: var(--bg-color);
 	top: 0;
+}
+header.resize {
+	height: 4rem;
+	overflow: hidden;
+	background: var(--color-5);
 }
 header svg {
 	width: 5rem;
@@ -28,7 +33,7 @@ header .linkTo {
 	gap: .5rem;
     border-radius: .5rem;
     background: inherit;
-    border: 2px solid var(--color-3);
+    border: 2px solid var(--color-5);
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
@@ -40,7 +45,8 @@ header .linkTo svg {
 	height: 1.75rem;
 }
 header .linkTo:hover {
-    background: var(--color-3);
+    background: var(--color-5);
+    color: var(--bg-color);
 }
 header .cart {
 	position: relative;

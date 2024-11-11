@@ -24,7 +24,7 @@ body {
   overflow-y: scroll;
 }
 header {
-	background: var(--color-5);
+	background: var(--bg-color);
 }
 main {
 	background: var(--bg-color-main);

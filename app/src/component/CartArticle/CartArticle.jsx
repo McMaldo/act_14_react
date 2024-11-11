@@ -1,27 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLocalStorage } from "@uidotdev/usehooks";
 import s from './cartArticle.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMinus, faPlus, faTrash } from '@fortawesome/free-solid-svg-icons';
 
-export default function CartArticle({plate}) {
+export default function CartArticle({plateParam}) {
+    let [plate, setPlate] = useState(plateParam);
     let [cart, setCart] = useLocalStorage("chazablitaCart", []);
     let [isAddedToCart, setAddedToCart] = useLocalStorage("plate_"+plate.name, false);
-    let [articleCount, setArticleCount] = useLocalStorage("articleCount_"+plate.name, 1);
 	let [plateSelected, setPlateSelected] = useLocalStorage("cartPlateSelected", false);
 
+    let setPlateCount = (newValue) => { 
+        setPlate(prevState => ({
+            ...prevState,
+            count: newValue
+        }));
+        /*let plateToChange = cart.find(plateSearch => plateSearch.name == plate.name)
+        
+        buscar como actualizar el contenido de Cart
+        para guardar el count de plate 
+        cada vez que se suma o resta
+        */
+    };
     function deleteFromCart() {
-        setArticleCount(1);
+        setPlateCount(0)
         setAddedToCart(false);
         setCart(cart.filter(added => added.name != plate.name));
     }
     function articleCountPlus() {
-        if(articleCount < 8)
-            setArticleCount(articleCount+1)
+        if(plate.count < 8)
+            setPlateCount(plate.count+1)
     }
     function articleCountMinus() {
-        if(articleCount > 1)
-            setArticleCount(articleCount-1)
+        if(plate.count > 1)
+            setPlateCount(plate.count-1)
     }
 
     return (
@@ -37,7 +49,7 @@ export default function CartArticle({plate}) {
                 <span className={s.rightSide}>
                     <div className={s.article_unit}>
                         <FontAwesomeIcon icon={faMinus} onClick={() => articleCountMinus()}/>
-                        <span id='total'>{articleCount}</span>
+                        <span id='total'>{plate.count}</span>
                         <FontAwesomeIcon icon={faPlus} onClick={() => articleCountPlus()}/>
                     </div>
                 </span>

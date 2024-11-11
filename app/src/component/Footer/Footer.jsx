@@ -1,6 +1,6 @@
 import React from 'react';
-import Github from '../../assets/Github-Dark.svg';
-import Gitlab from '../../assets/Gitlab-Dark.svg';
+import Github from '../../assets/img/Github-Dark.svg';
+import Gitlab from '../../assets/img/Gitlab-Dark.svg';
 import ReacLogo from '../../assets/react.svg'
 import ViteLogo from '/vite.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

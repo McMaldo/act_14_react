@@ -13,7 +13,7 @@
     place-items: center;
     border-radius: .5rem;
     background: inherit;
-    border: 2px solid var(--color-3);
+    border: 2px solid var(--color-5);
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
@@ -21,7 +21,8 @@
     transition: all .2s;
 }
 .LoginButtons a:hover{
-    background: var(--color-3);
+    background: var(--color-5);
+    color: var(--bg-color);
 }
 .LoginContainer{
     width: 100%;

@@ -7,10 +7,18 @@ import CartArticlePopup from '../../component/CartArticlePopup/CartArticlePopup'
 export default function Cart() {
     let [cart, setCart] = useLocalStorage("chazablitaCart", []);
 	let [plateSelected, setPlateSelected] = useLocalStorage("cartPlateSelected", false);
+    let [totalPrice, setTotalPrice] = useLocalStorage("chazablitaTotalPrice", 0);
+
     useEffect(() => {
         window.scrollTo({top: 0});
-    });
-    let totalPrice = 0;
+        
+        let totalAux = 0;
+        cart.forEach((plate) => {
+            let articlePrice = (plate.price.total - plate.price.discount) * Number(plate.count || 1);
+            totalAux = totalAux + articlePrice;
+        })
+        setTotalPrice(totalAux);
+    }, [cart]);
 
     return (
         <>
@@ -19,10 +27,9 @@ export default function Cart() {
             <h2>Your Cart</h2>
         </section>
         <section className={s.cart+" "+(cart.length == 0 ? s.cartEmpty : "")}>
-        {cart.map((plate, plateKey) => {
-            totalPrice += plate.price.total - plate.price.discount;
-            return(<CartArticle key={plateKey} plate={plate}/>)
-        })}
+        {cart.map((plate, plateKey) => (
+            <CartArticle key={plateKey} plateParam={plate}/>
+        ))}
         </section>
         <section className={s.buy}>
             <div className={s.total}>
