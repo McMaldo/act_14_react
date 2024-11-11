@@ -17,6 +17,7 @@
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
+    user-select: none;
     transition: all .2s;
 }
 .LoginButtons a:hover{
@@ -24,7 +25,7 @@
 }
 .LoginContainer{
     width: 100%;
-    max-width: 350px;
+    max-width: 330px;
     height: fit-content;
     border-radius: 1rem;
     padding: .5rem 1rem;
@@ -36,16 +37,31 @@
 }
 .LoginContainer nav{
     width: 100%;
-    max-width: 250px;
-    height: 2rem;
+    height: 2.25rem;
     display: flex;
+    position: relative;
+}
+.LoginContainer nav::after{
+    content: "";
+    position: absolute;
+    left: 60%;
+    bottom: 0;
+    width: 30%;
+    height: 3px;
+    background: var(--color-5);
+    border-radius: 3px 3px 0 0;
+    transition: all .5s ease-in-out;
+}
+.LoginContainer nav.loginSelected::after{
+    left: 10%;
 }
 .LoginContainer nav a{
     width: 50%;
     height: 100%;
     display: grid;
     place-items: center;
-    transition: background .3s;
+    border-radius: .25rem;
+    transition: all .3s;
 }
 .LoginContainer nav a:hover{
     background: var(--bg-color-card);
@@ -62,20 +78,41 @@
     color: var(--font-color);
     gap: .75rem;
 }
+.FormContainer form span{
+    width: 100%;
+    position: relative;
+}
 .FormContainer form input{
     width: 100%;
-    height: 2.25rem;
+    height: 2.5rem;
     border-radius: .25rem;
     background: var(--bg-color-card);
     padding: 0 .75rem;
     font-size: .9rem;
     cursor: pointer;
 }
+.FormContainer form span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 25%;
+    width: 3px;
+    height: 50%;
+    border-radius: 0 3px 3px 0;
+    background: transparent;
+    transition: background .2s;
+}
+.FormContainer form span:focus-within::after{
+    background: var(--color-5);
+}
 .FormContainer form input::placeholder{
     color: var(--font-color-soft);
 }
 .FormContainer form input[type="submit"]{
-    max-width: 200px;
+    background: var(--color-5);
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: var(--bg-color)
 }
 .LoginContainer svg{
     width: 8rem;

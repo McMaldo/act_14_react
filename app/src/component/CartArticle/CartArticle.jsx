@@ -6,8 +6,9 @@ import { faMinus, faPlus, faTrash } from '@fortawesome/free-solid-svg-icons';
 
 export default function CartArticle({plate}) {
     let [cart, setCart] = useLocalStorage("chazablitaCart", []);
-    let [isAddedToCart, setAddedToCart] = useLocalStorage("plate_"+plate.name,false);
-    let [articleCount, setArticleCount] = useLocalStorage("articleCount_"+plate.name, 1)
+    let [isAddedToCart, setAddedToCart] = useLocalStorage("plate_"+plate.name, false);
+    let [articleCount, setArticleCount] = useLocalStorage("articleCount_"+plate.name, 1);
+	let [plateSelected, setPlateSelected] = useLocalStorage("cartPlateSelected", false);
 
     function deleteFromCart() {
         setArticleCount(1);
@@ -25,16 +26,15 @@ export default function CartArticle({plate}) {
 
     return (
         <article className={s.cartArticle}>
-            <div className={s.img_container}>
+            <div className={s.img_container} onClick={() => setPlateSelected(plate)}>
                 <img src={plate.img} alt=""/>
             </div>
             <div className={s.article_info}>
                 <span className={s.leftSide}>
-                    <h4>{plate.name}</h4>
+                    <h4 onClick={() => setPlateSelected(plate)}>{plate.name}</h4>
                     <h4 className={s.price}>${plate.price.total - plate.price.discount}</h4>
                 </span>
                 <span className={s.rightSide}>
-                    <FontAwesomeIcon icon={faTrash} onClick={() => deleteFromCart()} className={s.trash}/>
                     <div className={s.article_unit}>
                         <FontAwesomeIcon icon={faMinus} onClick={() => articleCountMinus()}/>
                         <span id='total'>{articleCount}</span>

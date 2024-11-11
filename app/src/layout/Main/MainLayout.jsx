@@ -5,8 +5,11 @@ import Footer from '../../component/Footer/Footer';
 import { LoginButtons } from '../../page/Login/Login';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faList, faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { useLocalStorage } from '@uidotdev/usehooks';
 
 export default function MainLayout() {
+    let [cart, setCart] = useLocalStorage("chazablitaCart", []);
+
 	return (
 		<>
 			<header>
@@ -16,7 +19,8 @@ export default function MainLayout() {
 						<FontAwesomeIcon icon={faList}/>
 						<span>Menu</span>
 					</Link>
-					<Link to="/act_14_react/cart" className={s.linkTo}>
+					<Link to="/act_14_react/cart" className={s.linkTo+" "+s.cart}>
+						<span className={s.total}>{cart.length <= 9 ? cart.length : "+9"}</span>
 						<FontAwesomeIcon icon={faCartShopping}/>
 						<span>Cart</span>
 					</Link>

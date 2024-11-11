@@ -32,6 +32,7 @@ header .linkTo {
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
+	user-select: none;
     transition: all .2s;
 }
 header .linkTo svg {
@@ -40,6 +41,23 @@ header .linkTo svg {
 }
 header .linkTo:hover {
     background: var(--color-3);
+}
+header .cart {
+	position: relative;
+}
+header .cart .total {
+	position: absolute;
+	top: -4px;
+    right: 2px;
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 50%;
+	background: var(--bg-color);
+	border: 2px solid var(--color-5);
+	color: var(--color-5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 main {

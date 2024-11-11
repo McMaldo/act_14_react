@@ -19,6 +19,7 @@ article.cartArticle .img_container{
 	width: 6rem;
 	border-radius: .25rem;
 	user-select: none;
+	cursor: pointer;
 }
 article.cartArticle .img_container img{
 	width: 100%;
@@ -52,8 +53,12 @@ article.cartArticle .article_info h4.price{
     flex-direction: column;
     justify-content: space-around;
 }
+.leftSide h4:first-child{
+	cursor: pointer;
+}
 .rightSide{
     align-items: center;
+	justify-content: flex-end;
 }
 .trash{
     color: var(--font-color);

@@ -41,11 +41,11 @@ section.heading{
 	background: url(/src/assets/img/PizzaPortada.webp);
 	background-repeat: no-repeat;
 	background-position: 50% 55%;
-	background-size: 55%;
+	background-size: contain;
 	transition: all .3s ease-in-out;
 	z-index: 2;
 }
-.offers:hover .offers_content{
+.offers_content:hover{
 	top: -15%;
 }
 .offers .search{

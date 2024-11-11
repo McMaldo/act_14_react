@@ -1,0 +1,119 @@
+.cartArticleOverlay{
+    z-index: 6;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.25);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: grid;
+    place-items: center;
+}
+
+.cartArticle{
+    z-index: 7;
+	user-select: none;
+	width: 100%;
+    max-width: 15rem;
+	height: fit-content;
+	border-radius: .5rem;
+	padding: .5rem;
+	display: flex;
+	flex-direction: column;
+	gap: .25rem;
+	background: var(--bg-color-main);
+	border: 3px solid var(--color-3);
+	transition: background .3s ease;
+	transform: translate(-50%, -50%);
+	position: fixed;
+    left: 50%;
+    top: 50%;
+}
+.close{
+    z-index: 8;
+    position: absolute;
+    right: .5rem;
+    top: .25rem;
+    width: 1.25rem;
+    height: 1.25rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    color: var(--font-color);
+}
+.cartArticle .name,
+.cartArticle .price,
+.cartArticle button{
+	z-index: 8;
+}
+.cartArticle .name{
+	width: 100%;
+	height: 2.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.cartArticle .name h4{
+	display: -webkit-box;
+	line-clamp: 2;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-shadow: 0 0 .5rem var(--bg-color);
+}
+.cartArticle .img_container{
+	width: 100%;
+	pointer-events: none;
+	transition: all .3s ease-in-out;
+}
+.cartArticle .img_container img{
+	width: 100%;
+	object-fit: cover;
+	overflow: visible;
+}
+.cartArticle:hover .img_container{
+	transform: translateY(-.75rem);
+	filter: drop-shadow(.25rem 1.25rem .5rem var(--bg-color-card-shadow));
+}
+.cartArticle button{
+	cursor: pointer;
+	width: 100%;
+	height: 1.75rem;
+	border-radius: .25rem;
+	background: var(--color-3);
+	color: var(--bg-color);
+	font-weight: 500;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: .5rem;
+	transition: all .5s;
+}
+.cartArticle button svg{
+	height: 60%;
+}
+.cartArticle:hover{
+	border: 3px solid var(--color-5);
+}
+.cartArticle:hover button{
+	background: var(--color-5);
+}
+.cartArticle button.addedToCart{
+	background: var(--color-1)!important;
+}
+.cartArticle .price{
+	display: flex;
+	justify-content: center;
+	color: var(--color-5);
+	gap: 1rem;
+}
+.cartArticle .price h5:first-child{
+	text-decoration: line-through;
+	color: var(--font-color-soft);
+}
+@media (max-width: 500px){
+	.cartArticle{
+		width: 9rem;
+	}
+}
