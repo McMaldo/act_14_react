@@ -3,11 +3,13 @@ import { useLocalStorage } from "@uidotdev/usehooks";
 import s from './cart.module.css';
 import CartArticle from '../../component/CartArticle/CartArticle';
 import CartArticlePopup from '../../component/CartArticlePopup/CartArticlePopup';
+import FinalTicket from '../../component/FinalTicket/FinalTicket';
 
 export default function Cart() {
     let [cart, setCart] = useLocalStorage("chazablitaCart", []);
 	let [plateSelected, setPlateSelected] = useLocalStorage("cartPlateSelected", false);
     let [totalPrice, setTotalPrice] = useLocalStorage("chazablitaTotalPrice", 0);
+    let [ticket, setTicket] = useLocalStorage("chazablitaFinalTicket", false);
 
     useEffect(() => {
         window.scrollTo({top: 0});
@@ -23,6 +25,7 @@ export default function Cart() {
     return (
         <>
         {plateSelected ? <CartArticlePopup plateSelected={plateSelected}/> : ""}
+        {ticket ? <FinalTicket/> : ""}
         <section className={s.heading}>
             <h2>Your Cart</h2>
         </section>
@@ -36,7 +39,7 @@ export default function Cart() {
                 <span>Total Price:</span>
                 <span>${totalPrice}</span>
             </div>
-            <button>Buy</button>
+            <button onClick={() => setTicket(true)}>Buy</button>
         </section>
         </>
     )

@@ -112,8 +112,3 @@
 	text-decoration: line-through;
 	color: var(--font-color-soft);
 }
-@media (max-width: 500px){
-	.cartArticle{
-		width: 9rem;
-	}
-}
