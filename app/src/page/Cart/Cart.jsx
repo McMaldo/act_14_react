@@ -12,8 +12,6 @@ export default function Cart() {
     let [ticket, setTicket] = useLocalStorage("chazablitaFinalTicket", false);
 
     useEffect(() => {
-        window.scrollTo({top: 0});
-        
         let totalAux = 0;
         cart.forEach((plate) => {
             let articlePrice = (plate.price.total - plate.price.discount) * Number(plate.count || 1);

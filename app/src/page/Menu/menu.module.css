@@ -14,6 +14,8 @@ section.heading{
 	}
 }
 .offers{
+	display: flex;
+	justify-content: center;
 	height: calc(100% - 17.5rem);
 	background: url(/src/assets/img/mesa.jpg);
 	background-position: bottom;
@@ -35,6 +37,7 @@ section.heading{
 	position: absolute;
 	top: -10%;
 	width: 100%;
+	max-width: 550px;
 	height: 120%;
 	display: flex;
 	justify-content: center;
@@ -45,7 +48,7 @@ section.heading{
 	transition: all .3s ease-in-out;
 	z-index: 2;
 }
-.offers_content:hover{
+.offers:hover .offers_content{
 	top: -15%;
 }
 .offers .search{

@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useLocalStorage } from "@uidotdev/usehooks";
 import s from './menuArticle.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
 
 export default function MenuArticle({plate}) {
+	let [plateSelected, setPlateSelected] = useLocalStorage("plateSelected", false);
     let [isAddedToCart, setAddedToCart] = useLocalStorage("plate_"+plate.name,false);
     let [cart, setCart] = useLocalStorage("chazablitaCart", []);
     function addToCart() {
@@ -22,10 +23,10 @@ export default function MenuArticle({plate}) {
 
     return (
         <article className={s.menuArticle+" "+plate.class.category}>
-            <div className={s.img_container}>
+            <div className={s.img_container} onClick={() => setPlateSelected(plate)}>
                 <img src={plate.img} alt="" />
             </div>
-            <div className={s.name}>
+            <div className={s.name} onClick={() => setPlateSelected(plate)}>
                 <h4>{plate.name}</h4>
             </div>
             <div className={s.price}>

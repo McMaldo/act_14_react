@@ -1,6 +1,6 @@
-import { StrictMode } from 'react';
+import { StrictMode, useEffect } from 'react';
 import { createRoot } from 'react-dom/client';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, useLocation } from 'react-router-dom';
 import './assets/css/index.css';
 
 // Layouts
@@ -12,9 +12,21 @@ import Menu from './page/Menu/Menu.jsx';
 import Cart from './page/Cart/Cart.jsx';
 import Login, { LoginForm, RegisterForm } from './page/Login/Login.jsx';
 
+// Al cambiar de pagina ir inicio de la misma
+export const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
+
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <BrowserRouter>
+  <BrowserRouter>
+    <ScrollToTop/>
+    <StrictMode>
       <Routes>
         <Route path="/act_14_react/" element={<MainLayout/>}>
           <Route path="/act_14_react/" element={<Menu/>}/>
@@ -28,6 +40,6 @@ createRoot(document.getElementById('root')).render(
         </Route>
         <Route path='*' element={<Error/>}/>
       </Routes>
-    </BrowserRouter>
-  </StrictMode>,
+    </StrictMode>
+  </BrowserRouter>
 )

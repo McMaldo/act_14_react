@@ -1,4 +1,6 @@
 .menuArticle{
+	z-index: 1;
+	cursor: pointer;
 	user-select: none;
 	width: 11rem;
 	height: fit-content;
@@ -12,8 +14,7 @@
 	transition: all .3s ease;
 }
 .menuArticle .name,
-.menuArticle .price,
-.menuArticle button{
+.menuArticle .price{
 	z-index: 3;
 }
 .menuArticle .name{
@@ -36,7 +37,6 @@
 .menuArticle .img_container{
 	width: 100%;
 	aspect-ratio: 1 / 1;
-	pointer-events: none;
 	transition: all .3s ease-in-out;
 }
 .menuArticle .img_container img{
@@ -56,6 +56,7 @@
 }
 .menuArticle button{
 	cursor: pointer;
+	z-index: 5;
 	width: 100%;
 	height: 1.75rem;
 	border-radius: .25rem;

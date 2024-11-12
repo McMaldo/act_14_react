@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useLocalStorage } from "@uidotdev/usehooks";
 import s from './menu.module.css';
 import plates from '../../assets/plates.json';
@@ -7,18 +7,6 @@ import { faUtensils, faPizzaSlice, faBurger, faBowlFood, faMartiniGlassCitrus, f
 import MenuArticle from '../../component/MenuArticle/MenuArticle';
 import MenuArticlePopup from '../../component/MenuArticlePopup/MenuArticlePopup';
 
-export function addToCart(product) {
-	if(!localStorage.getItem("ChazablitaUserToken")){
-		console.log("user unregistered");
-	}
-	if(!localStorage.getItem("ChazablitaUserName")){
-		console.log("name empty");
-	}
-	localStorage.setItem("ChazablitaCart") ?? "";
-	/*if(product){
-		localStorage.setItem("ChazablitaCart") += product.name+",";
-	}*/
-}
 export default function Menu() {
 	let [plateSelected, setPlateSelected] = useLocalStorage("plateSelected", false);
 	const categories = [
@@ -65,9 +53,7 @@ export default function Menu() {
 			</section>
 			<section className={s.menu}>
 				{plates.result.map((plate, plateKey) => (
-					<span key={plateKey} onClick={() => setPlateSelected(plate)}>
-						<MenuArticle plate={plate} />
-					</span>
+					<MenuArticle key={plateKey} plate={plate} />
 				))}
 			</section>
 		</>
