@@ -14,7 +14,7 @@ export default function Cart() {
     useEffect(() => {
         let totalAux = 0;
         cart.forEach((plate) => {
-            let articlePrice = (plate.price.total - plate.price.discount) * Number(plate.count || 1);
+            let articlePrice = (plate.priceTotal - plate.priceDiscount) * Number(plate.count || 1);
             totalAux = totalAux + articlePrice;
         })
         setTotalPrice(totalAux);

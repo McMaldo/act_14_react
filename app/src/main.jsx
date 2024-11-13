@@ -13,7 +13,7 @@ import Cart from './page/Cart/Cart.jsx';
 import Login, { LoginForm, RegisterForm } from './page/Login/Login.jsx';
 
 // Al cambiar de pagina ir inicio de la misma
-export const ScrollToTop = () => {
+const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {

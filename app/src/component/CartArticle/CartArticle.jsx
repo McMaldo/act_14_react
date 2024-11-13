@@ -44,7 +44,7 @@ export default function CartArticle({plateParam}) {
             <div className={s.article_info}>
                 <span className={s.leftSide}>
                     <h4 onClick={() => setPlateSelected(plate)}>{plate.name}</h4>
-                    <h4 className={s.price}>${plate.price.total - plate.price.discount}</h4>
+                    <h4 className={s.price}>${plate.priceTotal - plate.priceDiscount}</h4>
                 </span>
                 <span className={s.rightSide}>
                     <div className={s.article_unit}>

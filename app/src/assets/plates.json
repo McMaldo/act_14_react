@@ -1,18 +1,14 @@
 {
-  "result": [
+	"result": [
 		{
 			"name": "Muzzarela",
 			"img": "/act_14_react/img/plate/pizzaMuzzarela.png",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15000,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15000,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4,
 			"total_purchases": 150,
 			"tags": ["vegan", "dietetic"]
@@ -20,16 +16,12 @@
 		{
 			"name": "Napolitana",
 			"img": "/act_14_react/img/plate/pizzaNapolitana.png",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15100,
-				"discount": 5,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15100,
+			"priceDiscount": 5,
+			"priceTaxation": 15,
 			"stars": 4.5,
 			"total_purchases": 120,
 			"tags": ["sugar free", "dietetic"]
@@ -37,16 +29,12 @@
 		{
 			"name": "Fugazzetta Rellena",
 			"img": "/act_14_react/img/plate/pizzaFugazzettaRellena.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15150,
-				"discount": 0,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15150,
+			"priceDiscount": 0,
+			"priceTaxation": 15,
 			"stars": 4.2,
 			"total_purchases": 90,
 			"tags": ["onion", "cheese"]
@@ -54,16 +42,12 @@
 		{
 			"name": "Fugazzetta",
 			"img": "/act_14_react/img/plate/pizzaFugazzetta.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15150,
-				"discount": 0,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15150,
+			"priceDiscount": 0,
+			"priceTaxation": 15,
 			"stars": 4.2,
 			"total_purchases": 90,
 			"tags": ["onion", "cheese"]
@@ -71,16 +55,12 @@
 		{
 			"name": "Cuatro Quesos",
 			"img": "/act_14_react/img/plate/pizzaCuatroQuesos.png",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15300,
-				"discount": 15,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15300,
+			"priceDiscount": 15,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 80,
 			"tags": ["cheese", "gourmet"]
@@ -88,16 +68,12 @@
 		{
 			"name": "Margarita",
 			"img": "/act_14_react/img/plate/pizzaMargarita.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15200,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15200,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.6,
 			"total_purchases": 140,
 			"tags": ["basil", "vegetarian"]
@@ -105,16 +81,12 @@
 		{
 			"name": "Pepperoni",
 			"img": "/act_14_react/img/plate/pizzaPepperoni.png",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15400,
-				"discount": 20,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15400,
+			"priceDiscount": 20,
+			"priceTaxation": 15,
 			"stars": 4.7,
 			"total_purchases": 200,
 			"tags": ["spicy", "meat"]
@@ -122,16 +94,12 @@
 		{
 			"name": "Hawaiana",
 			"img": "/act_14_react/img/plate/pizzaHawaiana.png",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15350,
-				"discount": 5,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15350,
+			"priceDiscount": 5,
+			"priceTaxation": 15,
 			"stars": 4.3,
 			"total_purchases": 70,
 			"tags": ["pineapple", "ham"]
@@ -139,16 +107,12 @@
 		{
 			"name": "BBQ Chicken",
 			"img": "/act_14_react/img/plate/pizzaBbqChiken.png",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15450,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15450,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.9,
 			"total_purchases": 65,
 			"tags": ["chicken", "barbecue"]
@@ -156,16 +120,12 @@
 		{
 			"name": "BBQ Pork",
 			"img": "/act_14_react/img/plate/pizzaBbqPork.png",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15450,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15450,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.9,
 			"total_purchases": 65,
 			"tags": ["chicken", "barbecue"]
@@ -173,16 +133,12 @@
 		{
 			"name": "Italia",
 			"img": "/act_14_react/img/plate/pizzaItaliana.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15100,
-				"discount": 15,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15100,
+			"priceDiscount": 15,
+			"priceTaxation": 15,
 			"stars": 4.4,
 			"total_purchases": 50,
 			"tags": ["vegetarian", "healthy"]
@@ -190,16 +146,12 @@
 		{
 			"name": "Carne",
 			"img": "/act_14_react/img/plate/pizzaCarne.png",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 17500,
-				"discount": 1500,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 17500,
+			"priceDiscount": 1500,
+			"priceTaxation": 15,
 			"stars": 5,
 			"total_purchases": 100,
 			"tags": ["meat", "spicy"]
@@ -207,16 +159,12 @@
 		{
 			"name": "Champiñones",
 			"img": "/act_14_react/img/plate/pizzaChampiniones.png",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 16200,
-				"discount": 2000,
-				"taxation": 10
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 16200,
+			"priceDiscount": 2000,
+			"priceTaxation": 10,
 			"stars": 4.1,
 			"total_purchases": 85,
 			"tags": ["mushroom", "vegetarian"]
@@ -224,16 +172,12 @@
 		{
 			"name": "Atún",
 			"img": "/act_14_react/img/plate/pizzaAtun.png",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 154300,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 154300,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.3,
 			"total_purchases": 95,
 			"tags": ["fish", "seafood"]
@@ -241,16 +185,12 @@
 		{
 			"name": "Salchicha",
 			"img": "/act_14_react/img/plate/pizzaSalchicha.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 12400,
-				"discount": 15,
-				"taxation": 20
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 12400,
+			"priceDiscount": 15,
+			"priceTaxation": 20,
 			"stars": 4.5,
 			"total_purchases": 110,
 			"tags": ["sausage", "spicy"]
@@ -258,16 +198,12 @@
 		{
 			"name": "Vegana",
 			"img": "/act_14_react/img/plate/pizzaVegana.png",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15250,
-				"discount": 5,
-				"taxation": 10
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15250,
+			"priceDiscount": 5,
+			"priceTaxation": 10,
 			"stars": 4.2,
 			"total_purchases": 75,
 			"tags": ["vegan", "healthy"]
@@ -275,16 +211,12 @@
 		{
 			"name": "Veggie",
 			"img": "/act_14_react/img/plate/pizzaVeggie.png",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15250,
-				"discount": 5,
-				"taxation": 10
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15250,
+			"priceDiscount": 5,
+			"priceTaxation": 10,
 			"stars": 4.2,
 			"total_purchases": 75,
 			"tags": ["vegan", "healthy"]
@@ -292,16 +224,12 @@
 		{
 			"name": "Mortadella",
 			"img": "/act_14_react/img/plate/pizzaMortadella.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15350,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15350,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.4,
 			"total_purchases": 120,
 			"tags": ["not vegan"]
@@ -309,16 +237,12 @@
 		{
 			"name": "Pollo",
 			"img": "/act_14_react/img/plate/pizzaPollo.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15400,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15400,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.7,
 			"total_purchases": 100,
 			"tags": ["chicken", "protein"]
@@ -326,16 +250,12 @@
 		{
 			"name": "Rúcula",
 			"img": "/act_14_react/img/plate/pizzaRucula.png",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15300,
-				"discount": 5,
-				"taxation": 10
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15300,
+			"priceDiscount": 5,
+			"priceTaxation": 10,
 			"stars": 4.3,
 			"total_purchases": 60,
 			"tags": ["arugula", "gourmet"]
@@ -343,16 +263,12 @@
 		{
 			"name": "Mediterránea",
 			"img": "/act_14_react/img/plate/pizzaMediterranea.png",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15350,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15350,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.6,
 			"total_purchases": 90,
 			"tags": ["olives", "feta"]
@@ -360,16 +276,12 @@
 		{
 			"name": "Mediterránea a la Piedra",
 			"img": "/act_14_react/img/plate/pizzaMediterraneaPiedra.png",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15350,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15350,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.6,
 			"total_purchases": 90,
 			"tags": ["olives", "feta"]
@@ -377,16 +289,12 @@
 		{
 			"name": "Mariscos",
 			"img": "/act_14_react/img/plate/pizzaMariscos.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15500,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15500,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 100,
 			"tags": ["seafood", "gourmet"]
@@ -394,16 +302,12 @@
 		{
 			"name": "Especial",
 			"img": "/act_14_react/img/plate/pizzaEspecial.png",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15500,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15500,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 100,
 			"tags": ["gourmet"]
@@ -411,16 +315,12 @@
 		{
 			"name": "Noruega",
 			"img": "/act_14_react/img/plate/pizzaNoruega.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15500,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15500,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 100,
 			"tags": ["gourmet"]
@@ -428,16 +328,12 @@
 		{
 			"name": "Piemonte",
 			"img": "/act_14_react/img/plate/pizzaPiemonte.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15500,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15500,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 100,
 			"tags": ["gourmet"]
@@ -445,16 +341,12 @@
 		{
 			"name": "Pil-Pil",
 			"img": "/act_14_react/img/plate/pizzaPilPil.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15500,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15500,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 100,
 			"tags": ["gourmet"]
@@ -462,16 +354,12 @@
 		{
 			"name": "Salmón",
 			"img": "/act_14_react/img/plate/pizzaSalmon.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15500,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15500,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 100,
 			"tags": ["gourmet"]
@@ -479,16 +367,12 @@
 		{
 			"name": "Salmón Búfala",
 			"img": "/act_14_react/img/plate/pizzaSalmonBufala.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15500,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15500,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 100,
 			"tags": ["gourmet"]
@@ -496,16 +380,12 @@
 		{
 			"name": "Cabra",
 			"img": "/act_14_react/img/plate/pizzaCabra.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15500,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15500,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 100,
 			"tags": ["gourmet"]
@@ -513,16 +393,12 @@
 		{
 			"name": "Bacalao",
 			"img": "/act_14_react/img/plate/pizzaBacalao.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15500,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15500,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 100,
 			"tags": ["gourmet"]
@@ -530,16 +406,12 @@
 		{
 			"name": "Veraniega",
 			"img": "/act_14_react/img/plate/pizzaVeraniega.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15500,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15500,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 100,
 			"tags": ["gourmet"]
@@ -547,16 +419,12 @@
 		{
 			"name": "Parmigiana",
 			"img": "/act_14_react/img/plate/pizzaParmigiana.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15500,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15500,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 100,
 			"tags": ["gourmet"]
@@ -564,16 +432,12 @@
 		{
 			"name": "Huerto",
 			"img": "/act_14_react/img/plate/pizzaHuerto.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15500,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15500,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 100,
 			"tags": ["gourmet"]
@@ -581,16 +445,12 @@
 		{
 			"name": "Búfala",
 			"img": "/act_14_react/img/plate/pizzaBufala.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15500,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15500,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 100,
 			"tags": ["gourmet"]
@@ -598,16 +458,12 @@
 		{
 			"name": "Funghi Porcini",
 			"img": "/act_14_react/img/plate/pizzaFunghiPorcini.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15500,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15500,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 100,
 			"tags": ["gourmet"]
@@ -615,16 +471,12 @@
 		{
 			"name": "Bresaola",
 			"img": "/act_14_react/img/plate/pizzaBresaola.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15500,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15500,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 100,
 			"tags": ["gourmet"]
@@ -632,16 +484,12 @@
 		{
 			"name": "Próvola",
 			"img": "/act_14_react/img/plate/pizzaProvola.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15500,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15500,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 100,
 			"tags": ["gourmet"]
@@ -649,16 +497,12 @@
 		{
 			"name": "Vegetal",
 			"img": "/act_14_react/img/plate/pizzaVegetal.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15500,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15500,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 100,
 			"tags": ["gourmet"]
@@ -666,16 +510,12 @@
 		{
 			"name": "Roquefort",
 			"img": "/act_14_react/img/plate/pizzaRoquefort.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15500,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15500,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 100,
 			"tags": ["gourmet"]
@@ -683,16 +523,12 @@
 		{
 			"name": "Diavolo",
 			"img": "/act_14_react/img/plate/pizzaDiavolo.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15500,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15500,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 100,
 			"tags": ["gourmet"]
@@ -700,16 +536,12 @@
 		{
 			"name": "Versubio",
 			"img": "/act_14_react/img/plate/pizzaVersubio.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 15500,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 15500,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 100,
 			"tags": ["gourmet"]
@@ -717,16 +549,12 @@
 		{
 			"name": "Calzone",
 			"img": "/act_14_react/img/plate/pizzaCalzone.webp",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 8980,
-				"discount": 1000,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 8980,
+			"priceDiscount": 1000,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 100,
 			"tags": ["gourmet"]
@@ -734,514 +562,25 @@
 		{
 			"name": "En Cono",
 			"img": "/act_14_react/img/plate/pizzaEnCono.png",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "pizza"
-			},
-			"price": {
-				"total": 5600,
-				"discount": 700,
-				"taxation": 15
-			},
+			"meal": "lunch",
+			"type": "main course",
+			"category": "pizza",
+			"priceTotal": 5600,
+			"priceDiscount": 700,
+			"priceTaxation": 15,
 			"stars": 4.8,
 			"total_purchases": 100,
 			"tags": ["gourmet"]
 		},
 		{
 			"name": "Hamburguesa (Cajita Feliz)",
-      "img": "/act_14_react/img/plate/hamburguezaCajitaFeliz.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 3700,
-        "discount": 250,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "Hamburguesa",
-      "img": "/act_14_react/img/plate/hamburgueza.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 5000,
-        "discount": 250,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "Hamburguesa con Queso",
-      "img": "/act_14_react/img/plate/hamburguezaConQueso.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 5800,
-        "discount": 250,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "McFiesta Jr. (Cajita Feliz)",
-      "img": "/act_14_react/img/plate/hamburguezaMcFiestaCajitaFeliz.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 4600,
-        "discount": 250,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "McFiesta",
-      "img": "/act_14_react/img/plate/hamburguezaMcFiesta.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 5600,
-        "discount": 250,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "Doble Carne Doble Queso",
-      "img": "/act_14_react/img/plate/hamburguezaDobleCarneDobleQueso.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 5000,
-        "discount": 250,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "Triple Hamburguesa con Queso",
-      "img": "/act_14_react/img/plate/hamburguezaTripleHamburguesaConQueso.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 5000,
-        "discount": 250,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "Big Mac",
-      "img": "/act_14_react/img/plate/hamburguezaBigMac.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 7800,
-        "discount": 250,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "Cuarto de Libra con Queso",
-      "img": "/act_14_react/img/plate/hamburguezaCuartoDeLibraConQueso.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 5000,
-        "discount": 250,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "McNífica",
-      "img": "/act_14_react/img/plate/hamburguezaMcNifica.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 8000,
-        "discount": 250,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "Doble Cuarto de Libra con Queso",
-      "img": "/act_14_react/img/plate/hamburguezaDobleCuartoDeLibraConQueso.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 9000,
-        "discount": 250,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "Grand Tasty Doble",
-      "img": "/act_14_react/img/plate/hamburguezaGrandTastyDoble.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 9000,
-        "discount": 250,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "Grand Tasty Triple",
-      "img": "/act_14_react/img/plate/hamburguezaGrandTastyTriple.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 11000,
-        "discount": 300,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "Grand Doble McBacon",
-      "img": "/act_14_react/img/plate/hamburguezaGrandDobleMcBacon.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 9000,
-        "discount": 250,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "Grand Triple McBacon",
-      "img": "/act_14_react/img/plate/hamburguezaGrandTripleMcBacon.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 11000,
-        "discount": 400,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "Grand Tasty Turbo Bacon Doble",
-      "img": "/act_14_react/img/plate/hamburguezaGrandTastyTurboBaconDoble.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 11000,
-        "discount": 250,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "Grand Tasty Turbo Bacon Triple",
-      "img": "/act_14_react/img/plate/hamburguezaGrandTastyTurboBaconTriple.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 14000,
-        "discount": 250,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "Bacon Cheddar McMelt",
-      "img": "/act_14_react/img/plate/hamburguezaBaconCheddarMcMelt.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 9000,
-        "discount": 250,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "Grand Leyenda",
-      "img": "/act_14_react/img/plate/hamburguezaGrandLeyenda.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 9800,
-        "discount": 250,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "Chazablita",
-      "img": "/act_14_react/img/plate/hamburguezaChazablita.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 26000,
-        "discount": 1,
-        "taxation": 10000
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "Chaza Huevo Chaza",
-      "img": "/act_14_react/img/plate/hamburguezaChazaHuevoChaza.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 25000,
-        "discount": 1,
-        "taxation": 10000
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "Super Chazablita",
-      "img": "/act_14_react/img/plate/hamburguezaSuperChazablita.png",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 45000,
-        "discount": 1,
-        "taxation": 10000
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "Super Chazablita Emparedado",
-			"img": "/act_14_react/img/plate/hamburguezaSuperChazablitaEmparedado.png",
-      "imgAlt": "https://www.burgertowers.com/imagenes/Sandwich_Gigante_Towers.png",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 45000,
-        "discount": 1,
-        "taxation": 10000
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "Super Fedeguche",
-      "img": "/act_14_react/img/plate/hamburguezaSuperFedeguche.png",
-      "class": {
-        "meal": "lunch",
-        "type": "main course",
-				"category": "burger"
-      },
-      "price": {
-        "total": 45000,
-        "discount": 1,
-        "taxation": 10000
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-		{
-			"name": "Super Fedeguche Emparedado",
-			"img": "/act_14_react/img/plate/hamburguezaSuperFedegucheEmparedado.png",
-			"class": {
-				"meal": "lunch",
-				"type": "main course",
-				"category": "burger"
-			},
-			"price": {
-				"total": 60000,
-				"discount": 1,
-				"taxation": 10000
-			},
+			"img": "/act_14_react/img/plate/hamburguezaCajitaFeliz.webp",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 3700,
+			"priceDiscount": 250,
+			"priceTaxation": 10,
 			"stars": 5,
 			"total_purchases": 25,
 			"tags": [
@@ -1249,209 +588,554 @@
 				"low carb"
 			]
 		},
-    {
+		{
+			"name": "Hamburguesa",
+			"img": "/act_14_react/img/plate/hamburgueza.webp",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 5000,
+			"priceDiscount": 250,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "Hamburguesa con Queso",
+			"img": "/act_14_react/img/plate/hamburguezaConQueso.webp",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 5800,
+			"priceDiscount": 250,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "McFiesta Jr. (Cajita Feliz)",
+			"img": "/act_14_react/img/plate/hamburguezaMcFiestaCajitaFeliz.webp",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 4600,
+			"priceDiscount": 250,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "McFiesta",
+			"img": "/act_14_react/img/plate/hamburguezaMcFiesta.webp",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 5600,
+			"priceDiscount": 250,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "Doble Carne Doble Queso",
+			"img": "/act_14_react/img/plate/hamburguezaDobleCarneDobleQueso.webp",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 5000,
+			"priceDiscount": 250,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "Triple Hamburguesa con Queso",
+			"img": "/act_14_react/img/plate/hamburguezaTripleHamburguesaConQueso.webp",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 5000,
+			"priceDiscount": 250,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "Big Mac",
+			"img": "/act_14_react/img/plate/hamburguezaBigMac.webp",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 7800,
+			"priceDiscount": 250,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "Cuarto de Libra con Queso",
+			"img": "/act_14_react/img/plate/hamburguezaCuartoDeLibraConQueso.webp",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 5000,
+			"priceDiscount": 250,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "McNífica",
+			"img": "/act_14_react/img/plate/hamburguezaMcNifica.webp",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 8000,
+			"priceDiscount": 250,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "Doble Cuarto de Libra con Queso",
+			"img": "/act_14_react/img/plate/hamburguezaDobleCuartoDeLibraConQueso.webp",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 9000,
+			"priceDiscount": 250,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "Grand Tasty Doble",
+			"img": "/act_14_react/img/plate/hamburguezaGrandTastyDoble.webp",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 9000,
+			"priceDiscount": 250,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "Grand Tasty Triple",
+			"img": "/act_14_react/img/plate/hamburguezaGrandTastyTriple.webp",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 11000,
+			"priceDiscount": 300,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "Grand Doble McBacon",
+			"img": "/act_14_react/img/plate/hamburguezaGrandDobleMcBacon.webp",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 9000,
+			"priceDiscount": 250,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "Grand Triple McBacon",
+			"img": "/act_14_react/img/plate/hamburguezaGrandTripleMcBacon.webp",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 11000,
+			"priceDiscount": 400,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "Grand Tasty Turbo Bacon Doble",
+			"img": "/act_14_react/img/plate/hamburguezaGrandTastyTurboBaconDoble.webp",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 11000,
+			"priceDiscount": 250,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "Grand Tasty Turbo Bacon Triple",
+			"img": "/act_14_react/img/plate/hamburguezaGrandTastyTurboBaconTriple.webp",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 14000,
+			"priceDiscount": 250,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "Bacon Cheddar McMelt",
+			"img": "/act_14_react/img/plate/hamburguezaBaconCheddarMcMelt.webp",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 9000,
+			"priceDiscount": 250,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "Grand Leyenda",
+			"img": "/act_14_react/img/plate/hamburguezaGrandLeyenda.webp",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 9800,
+			"priceDiscount": 250,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "Chazablita",
+			"img": "/act_14_react/img/plate/hamburguezaChazablita.webp",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 26000,
+			"priceDiscount": 1,
+			"priceTaxation": 10000,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "Chaza Huevo Chaza",
+			"img": "/act_14_react/img/plate/hamburguezaChazaHuevoChaza.webp",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 25000,
+			"priceDiscount": 1,
+			"priceTaxation": 10000,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "Super Chazablita",
+			"img": "/act_14_react/img/plate/hamburguezaSuperChazablita.png",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 45000,
+			"priceDiscount": 1,
+			"priceTaxation": 10000,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "Super Chazablita Emparedado",
+			"img": "/act_14_react/img/plate/hamburguezaSuperChazablitaEmparedado.png",
+			"imgAlt": "https://www.burgertowers.com/imagenes/Sandwich_Gigante_Towers.png",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 45000,
+			"priceDiscount": 1,
+			"priceTaxation": 10000,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "Super Fedeguche",
+			"img": "/act_14_react/img/plate/hamburguezaSuperFedeguche.png",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 45000,
+			"priceDiscount": 1,
+			"priceTaxation": 10000,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
+			"name": "Super Fedeguche Emparedado",
+			"img": "/act_14_react/img/plate/hamburguezaSuperFedegucheEmparedado.png",
+			"meal": "lunch",
+			"type": "main course",
+			"category": "burger",
+			"priceTotal": 60000,
+			"priceDiscount": 1,
+			"priceTaxation": 10000,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
 			"name": "Ensalada Cesar",
-      "img": "/act_14_react/img/plate/ensaladaCesar.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "starter",
-				"category": "salad"
-      },
-      "price": {
-        "total": 7800,
-        "discount": 250,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-    {
+			"img": "/act_14_react/img/plate/ensaladaCesar.webp",
+			"meal": "lunch",
+			"type": "starter",
+			"category": "salad",
+			"priceTotal": 7800,
+			"priceDiscount": 250,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
 			"name": "Ensalada Mixta",
-      "img": "/act_14_react/img/plate/ensaladaMixta.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "starter",
-				"category": "salad"
-      },
-      "price": {
-        "total": 7000,
-        "discount": 500,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-    {
+			"img": "/act_14_react/img/plate/ensaladaMixta.webp",
+			"meal": "lunch",
+			"type": "starter",
+			"category": "salad",
+			"priceTotal": 7000,
+			"priceDiscount": 500,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
 			"name": "Ensalada Completa",
-      "img": "/act_14_react/img/plate/ensaladaCompleta.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "starter",
-				"category": "salad"
-      },
-      "price": {
-        "total": 8500,
-        "discount": 5,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-    {
+			"img": "/act_14_react/img/plate/ensaladaCompleta.webp",
+			"meal": "lunch",
+			"type": "starter",
+			"category": "salad",
+			"priceTotal": 8500,
+			"priceDiscount": 5,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
 			"name": "Ensalada Vegetal",
-      "img": "/act_14_react/img/plate/ensaladaVegetal.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "starter",
-				"category": "salad"
-      },
-      "price": {
-        "total": 8000,
-        "discount": 5,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-    {
+			"img": "/act_14_react/img/plate/ensaladaVegetal.webp",
+			"meal": "lunch",
+			"type": "starter",
+			"category": "salad",
+			"priceTotal": 8000,
+			"priceDiscount": 5,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
 			"name": "Ensalada Di Rucula",
-      "img": "/act_14_react/img/plate/ensaladaRucula.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "starter",
-				"category": "salad"
-      },
-      "price": {
-        "total": 8000,
-        "discount": 5,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-    {
+			"img": "/act_14_react/img/plate/ensaladaRucula.webp",
+			"meal": "lunch",
+			"type": "starter",
+			"category": "salad",
+			"priceTotal": 8000,
+			"priceDiscount": 5,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
 			"name": "Ensalada Caprese",
-      "img": "/act_14_react/img/plate/ensaladaCaprese.webp",
-      "class": {
-        "meal": "lunch",
-        "type": "starter",
-				"category": "salad"
-      },
-      "price": {
-        "total": 9000,
-        "discount": 5,
-        "taxation": 10
-      },
-      "stars": 5,
-      "total_purchases": 25,
-      "tags": [
-        "gluten free",
-        "low carb"
-      ]
-    },
-    {
+			"img": "/act_14_react/img/plate/ensaladaCaprese.webp",
+			"meal": "lunch",
+			"type": "starter",
+			"category": "salad",
+			"priceTotal": 9000,
+			"priceDiscount": 5,
+			"priceTaxation": 10,
+			"stars": 5,
+			"total_purchases": 25,
+			"tags": [
+				"gluten free",
+				"low carb"
+			]
+		},
+		{
 			"name": "Pizza de Nutella",
-      "img": "/act_14_react/img/plate/pizzaNutella.webp",
-      "class": {
-        "meal": "coffee",
-        "type": "dessert",
-				"category": "dessert"
-      },
-      "price": {
-        "total": 5500,
-        "discount": 15,
-        "taxation": 20
-      },
-      "stars": 4.5,
-      "total_purchases": 30,
-      "tags": [
-        "chocolate",
-        "vegetarian"
-      ]
-    },
-    {
+			"img": "/act_14_react/img/plate/pizzaNutella.webp",
+			"meal": "coffee",
+			"type": "dessert",
+			"category": "dessert",
+			"priceTotal": 5500,
+			"priceDiscount": 15,
+			"priceTaxation": 20,
+			"stars": 4.5,
+			"total_purchases": 30,
+			"tags": [
+				"chocolate",
+				"vegetarian"
+			]
+		},
+		{
 			"name": "Pizza de Tiramisú",
-      "img": "/act_14_react/img/plate/pizzaTiramisu.webp",
-      "class": {
-        "meal": "coffee",
-        "type": "dessert",
-				"category": "dessert"
-      },
-      "price": {
-        "total": 5500,
-        "discount": 15,
-        "taxation": 20
-      },
-      "stars": 4.5,
-      "total_purchases": 30,
-      "tags": [
-        "chocolate",
-        "vegetarian"
-      ]
-    },
-    {
+			"img": "/act_14_react/img/plate/pizzaTiramisu.webp",
+			"meal": "coffee",
+			"type": "dessert",
+			"category": "dessert",
+			"priceTotal": 5500,
+			"priceDiscount": 15,
+			"priceTaxation": 20,
+			"stars": 4.5,
+			"total_purchases": 30,
+			"tags": [
+				"chocolate",
+				"vegetarian"
+			]
+		},
+		{
 			"name": "Cannolo Siciliano",
-      "img": "/act_14_react/img/plate/pizzaCannoloSiciliano.webp",
-      "class": {
-        "meal": "coffee",
-        "type": "dessert",
-				"category": "dessert"
-      },
-      "price": {
-        "total": 5500,
-        "discount": 15,
-        "taxation": 20
-      },
-      "stars": 4.5,
-      "total_purchases": 30,
-      "tags": [
-        "chocolate",
-        "vegetarian"
-      ]
-    },
-    {
+			"img": "/act_14_react/img/plate/pizzaCannoloSiciliano.webp",
+			"meal": "coffee",
+			"type": "dessert",
+			"category": "dessert",
+			"priceTotal": 5500,
+			"priceDiscount": 15,
+			"priceTaxation": 20,
+			"stars": 4.5,
+			"total_purchases": 30,
+			"tags": [
+				"chocolate",
+				"vegetarian"
+			]
+		},
+		{
 			"name": "Café Espresso",
-      "img": "/act_14_react/img/plate/coffeeEspresso.webp",
-      "class": {
-        "meal": "coffee",
-        "type": "beverage",
-				"category": "coffee"
-      },
-      "price": {
-        "total": 4500,
-        "discount": 550,
-        "taxation": 5
-      },
-      "stars": 4.7,
-      "total_purchases": 50,
-      "tags": [
-        "caffeine",
-        "hot"
-      ]
-    }
-  ],
-  "src": [
-	"https://pizzuela.es/",
-	"https://tutsypizza.com/menu/"
-  ]
+			"img": "/act_14_react/img/plate/coffeeEspresso.webp",
+			"meal": "coffee",
+			"type": "beverage",
+			"category": "coffee",
+			"priceTotal": 4500,
+			"priceDiscount": 550,
+			"priceTaxation": 5,
+			"stars": 4.7,
+			"total_purchases": 50,
+			"tags": [
+				"caffeine",
+				"hot"
+			]
+		}
+	],
+	"src": [
+		"https://pizzuela.es/",
+		"https://tutsypizza.com/menu/"
+	]
 }

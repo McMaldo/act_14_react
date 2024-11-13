@@ -32,8 +32,8 @@ export default function CartArticlePopup({plateSelected}) {
                 <h4>{plate.name}</h4>
             </div>
             <div className={s.price}>
-                <h5>${plate.price.total}</h5>
-                <h5>${plate.price.total - plate.price.discount}</h5>
+                <h5>${plate.priceTotal}</h5>
+                <h5>${plate.priceTotal - plate.priceDiscount}</h5>
             </div>
             {isAddedToCart? 
             (<button onClick={() => deleteFromCart()}>

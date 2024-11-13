@@ -22,7 +22,7 @@ export default function MenuArticle({plate}) {
     }
 
     return (
-        <article className={s.menuArticle+" "+plate.class.category}>
+        <article className={s.menuArticle+" "+plate.category}>
             <div className={s.img_container} onClick={() => setPlateSelected(plate)}>
                 <img src={plate.img} alt="" />
             </div>
@@ -30,8 +30,8 @@ export default function MenuArticle({plate}) {
                 <h4>{plate.name}</h4>
             </div>
             <div className={s.price}>
-                <h5>${plate.price.total}</h5>
-                <h5>${plate.price.total - plate.price.discount}</h5>
+                <h5>${plate.priceTotal}</h5>
+                <h5>${plate.priceTotal - plate.priceDiscount}</h5>
             </div>
             {isAddedToCart? 
             (<button onClick={() => deleteFromCart()} className={s.addedToCart}>

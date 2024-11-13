@@ -1,14 +1,39 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLocalStorage } from "@uidotdev/usehooks";
 import s from './menu.module.css';
-import plates from '../../assets/plates.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUtensils, faPizzaSlice, faBurger, faBowlFood, faMartiniGlassCitrus, faIceCream, faCoffee, faBacon, faMagnifyingGlass, faCartPlus } from '@fortawesome/free-solid-svg-icons';
 import MenuArticle from '../../component/MenuArticle/MenuArticle';
 import MenuArticlePopup from '../../component/MenuArticlePopup/MenuArticlePopup';
+import loadingImg from '/act_14_react/img/loading2.svg';
+import ENDPOINT from '../../env.js';
 
 export default function Menu() {
 	let [plateSelected, setPlateSelected] = useLocalStorage("plateSelected", false);
+
+	let [data, setData] = useState(null);
+	let [error, setError] = useState(false);
+	let [loading, setLoading] = useState(true);
+	useEffect(() => {
+		setLoading(true);
+		fetch(ENDPOINT.GET_PLATE_ALL)
+		.then(response => {
+			if (!response.ok) {
+				throw new Error('Network response was not ok');
+			}
+			return response.json();
+		})
+		.then(data => {
+			setData(data);
+			setLoading(false);
+		})
+		.catch(error => {
+			console.error('Error fetching data:', error);
+			setError(true);
+			setLoading(false);
+		});
+	}, [ENDPOINT.GET_PLATE_ALL]);
+
 	const categories = [
 		{name:"appetizer",icon:faUtensils},
 		{name:"pizza",icon:faPizzaSlice},
@@ -52,7 +77,10 @@ export default function Menu() {
 				<h2>Menu</h2>
 			</section>
 			<section className={s.menu}>
-				{plates.result.map((plate, plateKey) => (
+				{error ? "error" :
+				loading ? <img src={loadingImg} alt="" className='loading' /> :
+				!data ? "no data" :
+				data.map((plate, plateKey) => (
 					<MenuArticle key={plateKey} plate={plate} />
 				))}
 			</section>

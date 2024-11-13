@@ -24,7 +24,7 @@ export default function FinalTicket() {
             {cart.map((plate, plateKey)=>(
                 <div key={plateKey} className={s.row}>
                     <h4>{plate.name}</h4>
-                    <h4>${plate.price.total - plate.price.discount}</h4>
+                    <h4>${plate.priceTotal - plate.priceDiscount}</h4>
                 </div>
             ))}
             <div className={s.row}>

@@ -29,3 +29,6 @@ header {
 main {
 	background: var(--bg-color-main);
 }
+.loading {
+  max-width: 70px;
+}
