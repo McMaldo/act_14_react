@@ -10,7 +10,9 @@ import LandingLayout from './layout/Landing/LandingLayout.jsx';
 import Error from './page/Error/Error.jsx';
 import Menu from './page/Menu/Menu.jsx';
 import Cart from './page/Cart/Cart.jsx';
-import Login, { LoginForm, RegisterForm } from './page/Login/Login.jsx';
+import Login from './page/Login/Login.jsx';
+import LoginForm from './page/Login/LoginForm.jsx';
+import RegisterForm from './page/Login/RegisterForm.jsx';
 
 // Al cambiar de pagina ir inicio de la misma
 const ScrollToTop = () => {

@@ -10,38 +10,7 @@ export function LoginButtons() {
         </div>
     )
 }
-export function RegisterForm() {
-	return (
-		<form>
-            <span>
-                <input type="email" name="email" id="email" placeholder='Email' required/>
-            </span>
-            <span>
-                <input type="password" name="password" id="nick" placeholder='Nick Name' required/>
-            </span>
-            <span>
-                <input type="password" name="password" id="password" placeholder='Password' required/>
-            </span>
-            <span>
-                <input type="password" name="password" id="passwordRepeat" placeholder='Repeat Password' required/>
-            </span>
-            <input type="submit" value="Register" id='RegisterBtn'/>
-        </form>
-    )
-}
-export function LoginForm() {
-	return (
-		<form>
-            <span>
-                <input type="text" name="email" id="email" placeholder='Email or Nick' required/>
-            </span>
-            <span>
-                <input type="password" name="password" id="password" placeholder='Insert Password' required/>
-            </span>
-            <input type="submit" value="Login" id='LoginBtn'/>
-        </form>
-    )
-}
+
 export default function Login({child}) {
     let [isLoginSelected, setLoginSelected] = useState(false);
 
@@ -56,9 +25,7 @@ export default function Login({child}) {
                 <Link to="/act_14_react/login">Login</Link>
                 <Link to="/act_14_react/register">Register</Link>
             </nav>
-            <div className={s.FormContainer}>
-                {child}
-            </div>
+            {child}
         </div>
     )
 }
