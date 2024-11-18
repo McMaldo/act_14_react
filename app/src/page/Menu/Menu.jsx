@@ -5,8 +5,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUtensils, faPizzaSlice, faBurger, faBowlFood, faMartiniGlassCitrus, faIceCream, faCoffee, faBacon, faMagnifyingGlass, faCartPlus } from '@fortawesome/free-solid-svg-icons';
 import MenuArticle from '../../component/MenuArticle/MenuArticle';
 import MenuArticlePopup from '../../component/MenuArticlePopup/MenuArticlePopup';
-import loadingImg from '/act_14_react/img/loading2.svg';
 import ENDPOINT from '../../env.js';
+import plates from '../../assets/plates.json';
 
 export default function Menu() {
 	let [plateSelected, setPlateSelected] = useLocalStorage("plateSelected", false);
@@ -77,8 +77,11 @@ export default function Menu() {
 				<h2>Menu</h2>
 			</section>
 			<section className={s.menu}>
-				{error ? "error" :
-				loading ? <img src={loadingImg} alt="" className='loading' /> :
+				{error ? 
+				plates.map((plate, plateKey) => (
+					<MenuArticle key={plateKey} plate={plate} />
+				)) :
+				loading ? <img src="/act_14_react/img/loading2.svg" alt="" className='loading' /> :
 				!data ? "no data" :
 				data.map((plate, plateKey) => (
 					<MenuArticle key={plateKey} plate={plate} />

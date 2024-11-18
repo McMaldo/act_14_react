@@ -88,8 +88,9 @@
 	text-decoration: line-through;
 	color: var(--font-color-soft);
 }
-@media (max-width: 500px){
-	.menuArticle{
-		width: 9rem;
+@media (max-width: 600px) {
+	article.menuArticle{
+		width: calc(50% - .5rem);
+		flex: 0 0 calc(50% - .5rem);
 	}
 }

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import loadingImg from '/act_14_react/img/loading.svg';
 import ENDPOINT from '../../env.js';
 
 export default function LoginForm({ onLoginSuccess }) {
@@ -87,7 +86,7 @@ export default function LoginForm({ onLoginSuccess }) {
 				disabled={loading} 
 				onClick={validateForm}
 			/>
-			{loading && <img src={loadingImg} alt="Loading..." className='loading' />}
+			{loading && <img src="/act_14_react/img/loading.svg" alt="Loading..." className='loading' />}
 			{error && <p>{error}</p>}
 		</form>
 	);
