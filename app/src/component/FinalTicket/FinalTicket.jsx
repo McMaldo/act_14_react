@@ -2,12 +2,17 @@ import React from 'react';
 import s from './finalTicket.module.css';
 import { useLocalStorage } from "@uidotdev/usehooks";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faXmark, faTrash, faCartPlus } from '@fortawesome/free-solid-svg-icons';
+import { faXmark, faMoneyCheckDollar } from '@fortawesome/free-solid-svg-icons';
 
 export default function FinalTicket() {
     let [cart, setCart] = useLocalStorage("chazablitaCart", []);
     let [ticket, setTicket] = useLocalStorage("chazablitaFinalTicket", true);
     let [totalPrice, setTotalPrice] = useLocalStorage("chazablitaTotalPrice", 0);
+
+    let buy = () => {
+        setCart([]);
+        setTicket(false);
+    }
 
     return (
         <>
@@ -31,6 +36,10 @@ export default function FinalTicket() {
                 <h4>Total: </h4>
                 <h4>${totalPrice}</h4>
             </div>
+            <button onClick={() => buy()}>
+                <FontAwesomeIcon icon={faMoneyCheckDollar}/>
+                <span>Buy</span>
+            </button>
         </article>
         </>
     )

@@ -28,7 +28,7 @@ export default function Cart() {
             <h2>Your Cart</h2>
         </section>
         <section className={s.cart+" "+(cart.length == 0 ? s.cartEmpty : "")}>
-        {cart.map((plate, plateKey) => (
+        {!cart ? "" : cart.map((plate, plateKey) => (
             <CartArticle key={plateKey} plateParam={plate}/>
         ))}
         </section>
