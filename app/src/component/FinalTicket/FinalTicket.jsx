@@ -32,7 +32,7 @@ export default function FinalTicket() {
                     <h4>${plate.priceTotal - plate.priceDiscount}</h4>
                 </div>
             ))}
-            <div className={s.row}>
+            <div className={s.row+" "+s.total}>
                 <h4>Total: </h4>
                 <h4>${totalPrice}</h4>
             </div>
