@@ -14,22 +14,18 @@ export default function LoginForm({ onLoginSuccess }) {
 			setPassword(target.value);
 		}
 	};
-	
+
 	const handleLogin = async (event) => {
 		//event.preventDefault();
 		setLoading(true);
 		setError('');
 		try {
-			const response = await fetch(ENDPOINT.POST_USER_LOGIN, {
+			const response = await fetch("http://localhost:3000/user/login", {
 				method: 'POST',
-				headers: {
-					'Content-Type': 'application/json',
-				},
-				body: JSON.stringify({
-					username,
-					password,
-				}),
+				headers: { 'Content-Type': 'application/json', },
+				body: JSON.stringify({ username, password }),
 			});
+
 
 			const data = await response.json();
 
@@ -45,14 +41,15 @@ export default function LoginForm({ onLoginSuccess }) {
 			setLoading(false);
 		}
 	};
-	
-	const validateForm = () => { 
-		if (!username || !password) { 
-			setError('Both fields are required'); 
-			return false; 
+
+
+	const validateForm = () => {
+		if (!username || !password) {
+			setError('Both fields are required');
+			return false;
 		}
 		handleLogin();
-		return true; 
+		return true;
 	};
 
 	return (
@@ -79,11 +76,11 @@ export default function LoginForm({ onLoginSuccess }) {
 					required
 				/>
 			</span>
-			<input 
-				type="submit" 
-				value="Login" 
-				id="LoginBtn" 
-				disabled={loading} 
+			<input
+				type="submit"
+				value="Login"
+				id="LoginBtn"
+				disabled={loading}
 				onClick={validateForm}
 			/>
 			{loading && <img src="/act_14_react/img/loading.svg" alt="Loading..." className='loading' />}

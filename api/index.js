@@ -58,8 +58,9 @@ api.post('/user/register', async (req, res) => {
 	}
 
 	try {
-		const hashedPassword = await bcrypt.hash(password, 10);
-		const user = { email, nick, password: hashedPassword };
+		//const hashedPassword = await bcrypt.hash(password, 10);
+		//const user = { email, nick, password: hashedPassword };
+		const user = { email, nick, password };
 
 		db.query('INSERT INTO chazablita__user (email, nick, pass) VALUES (?, ?, ?)', [user.email, user.nick, user.password], (error, results) => {
 			if (error) {
@@ -81,29 +82,37 @@ api.post('/user/register', async (req, res) => {
 api.post('/user/login', async (req, res) => {
 	const { username, password } = req.body;
 	if (!username || !password) {
-		return res.status(400).json({ message: 'Username and password are required' });
+	  return res.status(400).json({ message: 'Username and password are required' });
 	}
-
+  
 	db.query('SELECT * FROM chazablita__user WHERE nick = ?', [username], async (error, results) => {
-		if (error) {
-			return res.status(500).json({ message: 'Server error' });
+	  if (error) {
+		return res.status(500).json({ message: 'Server error' });
+	  }
+  
+	  if (results.length === 0) {
+		return res.status(400).json({ message: 'Invalid credentials' });
+	  }
+  
+	  const user = results[0];
+	  if (!user.pass) {
+		return res.status(500).json({ message: 'Password not found in user data', result: results });
+	  }
+  
+	  try {
+		//const isMatch = await bcrypt.compare(password, user.pass);
+		if (password != user.pass) {
+		  return res.status(400).json({ message: 'Invalid credentials' });
 		}
-
-		if (results.length === 0) {
-			return res.status(400).json({ message: 'Invalid credentials' });
-		}
-
-		const user = results[0];
-		const isMatch = await bcrypt.compare(password, user.password);
-
-		if (!isMatch) {
-			return res.status(400).json({ message: 'Invalid credentials' });
-		}
-
+  
 		const token = jwt.sign({ username: user.username }, process.env.JWT_SECRET, { expiresIn: '1h' });
 		res.status(200).json({ token });
+	  } catch (err) {
+		return res.status(500).json({ message: 'Error comparing passwords', result: results });
+	  }
 	});
-});
+  });
+  
 
 // Middleware para autenticar el token
 const authenticateToken = (req, res, next) => {
