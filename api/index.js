@@ -79,39 +79,76 @@ api.post('/user/register', async (req, res) => {
  * @param {username: String, password: String}
  * @returns {none}
  */
-api.post('/user/login', async (req, res) => {
+api.post('/user/login', (req, res) => {
 	const { username, password } = req.body;
+  
 	if (!username || !password) {
 	  return res.status(400).json({ message: 'Username and password are required' });
 	}
   
-	db.query('SELECT * FROM chazablita__user WHERE nick = ?', [username], async (error, results) => {
-	  if (error) {
-		return res.status(500).json({ message: 'Server error' });
+	db.query('SELECT * FROM chazablita__user WHERE nick = ?', [username], (err, results) => {
+	  if (err) {
+		console.error('Error en la consulta:', err);
+		return res.status(500).json({ message: 'Error interno en el servidor' });
 	  }
   
-	  if (results.length === 0) {
-		return res.status(400).json({ message: 'Invalid credentials' });
-	  }
+	  if (results.length > 0) {
+		const user = results[0];
   
-	  const user = results[0];
-	  if (!user.pass) {
-		return res.status(500).json({ message: 'Password not found in user data', result: results });
-	  }
+		if (user.pass === password) {
+		  const ADMIN_EMAIL = process.env.ADMIN_EMAIL || 'admin@gmail.com';
+		  user.role = (user.email === ADMIN_EMAIL) ? 'Administrador' : 'Usuario';
   
-	  try {
-		//const isMatch = await bcrypt.compare(password, user.pass);
-		if (password != user.pass) {
-		  return res.status(400).json({ message: 'Invalid credentials' });
+		  return res.status(200).json({
+			message: 'Login exitoso',
+			user: {
+			  username: user.nick,
+			  role: user.role,
+			  email: user.email
+			}
+		  });
+		} else {
+		  return res.status(401).json({ message: 'Usuario o contraseña incorrectos' });
 		}
-  
-		const token = jwt.sign({ username: user.username }, process.env.JWT_SECRET, { expiresIn: '1h' });
-		res.status(200).json({ token });
-	  } catch (err) {
-		return res.status(500).json({ message: 'Error comparing passwords', result: results });
+	  } else {
+		return res.status(401).json({ message: 'Usuario o contraseña incorrectos' });
 	  }
 	});
   });
+  
+// api.post('/user/login', async (req, res) => {
+// 	const { username, password } = req.body;
+// 	if (!username || !password) {
+// 	  return res.status(400).json({ message: 'Username and password are required' });
+// 	}
+  
+// 	db.query('SELECT * FROM chazablita__user WHERE nick = ?', [username], async (error, results) => {
+// 	  if (error) {
+// 		return res.status(500).json({ message: 'Server error' });
+// 	  }
+  
+// 	  if (results.length === 0) {
+// 		return res.status(400).json({ message: 'Invalid credentials' });
+// 	  }
+  
+// 	  const user = results[0];
+// 	  if (!user.pass) {
+// 		return res.status(500).json({ message: 'Password not found in user data', result: results });
+// 	  }
+  
+// 	  try {
+// 		//const isMatch = await bcrypt.compare(password, user.pass);
+// 		if (password != user.pass) {
+// 		  return res.status(400).json({ message: 'Invalid credentials' });
+// 		}
+  
+// 		const token = jwt.sign({ username: user.username }, process.env.JWT_SECRET, { expiresIn: '1h' });
+// 		res.status(200).json({ token });
+// 	  } catch (err) {
+// 		return res.status(500).json({ message: 'Error comparing passwords', result: results });
+// 	  }
+// 	});
+//   });
   
 
 // Middleware para autenticar el token
