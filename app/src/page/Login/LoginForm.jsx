@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Usamos useNavigate en lugar de useHistory
+import { useNavigate } from 'react-router-dom';
+import { useLocalStorage } from '@uidotdev/usehooks';
 import ENDPOINT from '../../env.js';
 
 export default function LoginForm({ onLoginSuccess }) {
@@ -7,7 +8,8 @@ export default function LoginForm({ onLoginSuccess }) {
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
     const [loading, setLoading] = useState(false);
-    const navigate = useNavigate(); // Inicializa useNavigate para redirigir
+    const navigate = useNavigate();
+    const [user, setUser] = useLocalStorage("chazablitaUser", false);
 
     const handleInput = ({ target }) => {
         if (target.id === 'username') {
@@ -33,11 +35,9 @@ export default function LoginForm({ onLoginSuccess }) {
             console.log('Response Data:', data); // Verifica qué datos se reciben
 
             if (response.ok) {
-                // Almacenar los datos del usuario en localStorage
-                localStorage.setItem('user', JSON.stringify(data.user));
+                setUser(data.user);
 
-                // Redirigir a la página de Landing usando navigate()
-                navigate('/act_14_react/Menu');  // Redirige a '/landing'
+                navigate('/act_14_react/Menu');
 
                 // Llamar a la función de éxito del login
                 onLoginSuccess();

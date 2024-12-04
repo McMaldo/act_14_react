@@ -1,5 +1,5 @@
 .ticketOverlay{
-    z-index: 6;
+    z-index: 10;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.25);
@@ -11,10 +11,11 @@
 }
 
 .ticket{
-    z-index: 7;
+    z-index: 11;
 	width: 100%;
     max-width: 20rem;
 	height: fit-content;
+	max-height: 100vh;
 	border-radius: .5rem;
 	padding: .5rem;
 	display: flex;
@@ -76,6 +77,26 @@
 .ticket .row h4:last-child{
     justify-content: flex-end;
 }
+
+.articleList{
+	overflow-y: scroll;
+}
+.articleList::-webkit-scrollbar{
+	width: .75rem;
+	background: transparent;
+}
+.articleList::-webkit-scrollbar:hover{
+	width: .75rem;
+	background: var(--bg-color-card);
+}
+.articleList::-webkit-scrollbar-thumb{
+	background: var(--color-1);
+	transition: all .3s;
+}
+.articleList::-webkit-scrollbar-thumb:hover{
+	background: var(--color-3);
+}
+
 .ticket .total{
     border-top: 1px solid var(--color-3);
 }
@@ -95,7 +116,7 @@
 .ticket button{
     cursor: pointer;
 	width: 100%;
-	height: 1.75rem;
+	min-height: 1.75rem;
 	border-radius: .25rem;
 	background: var(--color-3);
 	color: var(--bg-color);
@@ -104,6 +125,7 @@
 	justify-content: center;
 	align-items: center;
 	gap: .5rem;
+	user-select: none;
 	transition: all .5s;
 }
 .ticket:hover button{

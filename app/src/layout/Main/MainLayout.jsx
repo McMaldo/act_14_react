@@ -4,7 +4,7 @@ import s from './mainLayout.module.css'
 import Footer from '../../component/Footer/Footer';
 import { LoginButtons } from '../../page/Login/Login';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faList, faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { faList, faCartShopping, faPowerOff } from '@fortawesome/free-solid-svg-icons';
 import { useLocalStorage } from '@uidotdev/usehooks';
 import useScrollPosition from '../../hook/useScrollPosition';
 
@@ -12,6 +12,7 @@ export default function MainLayout() {
     let [cart, setCart] = useLocalStorage("chazablitaCart", []);
 	let [resize, setResize] = useState(false);
 	let scrollPosition = useScrollPosition();
+    const [user, setUser] = useLocalStorage("chazablitaUser", {});
 
 	useEffect(() => {
 		const handleScroll = () => {
@@ -38,7 +39,12 @@ export default function MainLayout() {
 						<FontAwesomeIcon icon={faCartShopping}/>
 						<span>Cart</span>
 					</Link>
-					<LoginButtons/>
+					{user ? 
+					<button className={s.off}>
+						<FontAwesomeIcon icon={faPowerOff} onClick={() => setUser(false)}/>
+					</button> : 
+					<LoginButtons/>}
+
 				</div>
 			</header>
 			<main>
